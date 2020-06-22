@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>京东签到</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+
+	<body>
+		<div class="header">
+			<img class="swiper" src="/img/header.png">
+			<div class="nav">
+				<p class="active" i="0" onclick="clickCategory(this)">馆</p>
+				<p i="1" onclick="clickCategory(this)" >店铺</p>
+				<p i="2" onclick="clickCategory(this)">活动</p>
+				<p i="3" onclick="clickCategory(this)">管理</p>
+			</div>
+		</div>
+		{* 馆 *}
+		<div id="mescroll0" class="mescroll">
+			<ul id="dataList0" class="data-list">
+			% for item in datalist0:
+			<li>
+				<a href="javascript:void(0);" onclick="gourl('{{item[0]}}')">
+					<img class="pd-img" src="img/jd.png" />
+					<p class="pd-name">{{item[1]}}</p>
+					<p class="pd-des">{{item[2]}}</p>
+					<p class="pd-rq">起止日期：{{item[3]}}~{{item[4]}}</p>
+				</a>
+			</li>
+			% end
+			</ul>
+		</div>
+		{* 店铺 *}
+		<div id="mescroll1" class="mescroll hide">
+			<ul id="dataList1" class="data-list">
+			% for item in datalist1:
+			<li>
+				<a href="javascript:void(0);" onclick="gourl('{{item[0]}}')">
+					<img class="pd-img" src="img/jd.png" />
+					<p class="pd-name">{{item[1]}}</p>
+					<p class="pd-des">{{item[2]}}</p>
+					<p class="pd-rq">起止日期：{{item[3]}}~{{item[4]}}</p>
+				</a>
+			</li>
+			% end
+			</ul>
+		</div>
+		{* 活动 *}
+		<div id="mescroll2" class="mescroll hide">
+			<ul id="dataList2" class="data-list">
+			% for item in datalist2:
+			<li>
+				<a href="javascript:void(0);" onclick="gourl('{{item[0]}}')">
+					<img class="pd-img" src="img/jd.png" />
+					<p class="pd-name">{{item[1]}}</p>
+					<p class="pd-des">{{item[2]}}</p>
+					<p class="pd-rq">起止日期：{{item[3]}}~{{item[4]}}</p>
+				</a>
+			</li>
+			% end
+			</ul>
+		</div>		
+		{* 管理 *}
+		<div id="mescroll3" class="mescroll hide">
+			<ul id="dataList3" class="data-list">
+				<li>
+					<a href="/admin/add_data.html">
+					<img class="pd-img" src="img/jd1.png" />
+					<p class="pd-title">添加数据</p>
+					</a>
+				</li>
+				<li>
+					<a href="/admin/update">
+					<img class="pd-img" src="img/jd1.png" />
+					<p class="pd-title">添加数据</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+	
+	{* <script src="js/mescroll.min.js" type="text/javascript" charset="utf-8"></script> *}
+	<script src="/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/myjs.js"  type="text/javascript" charset="utf-8"></script>
+    <script>
+			$(function () {init()})
+    </script>
+</html>
