@@ -22,6 +22,7 @@ jobs:
       run: |
         # sudo apt-get update
         # sudo apt-get -y install sqlite3 wget unzip sed 
+        rm -rf *
         git clone --depth=1 https://github.com/hjdhnx/hipy-js.git
         cd hipy-js
         rm -rf .git .idea
