@@ -26,7 +26,7 @@ jobs:
         git clone --depth=1 https://github.com/hjdhnx/hipy-js.git
         cd hipy-js
         rm -rf .git .idea
-        sed -i 's# "./jar/pg.jar?md5[^"]*",#"",#g' index.json
+        # sed -i 's# "./jar/pg.jar?md5[^"]*",#"",#g' index.json
         sed 's#\.\.\/json#\.\/json#g' index.json > ok_index.json
         mv * ../
         rm -rf hipy-js
