@@ -1,1 +1,37 @@
-H4sIAFfAdWYC/41Tz2vUQBS++1cMKLM/2CTbQi9ZqlTwICge6t6EZTZ52cx2kklnJt2udaG3ItRSPPTUS0WoRwVF6d9j0/4ZziQTN6tCnb3s++b75r33vZc9IpDIGaBNdHAP6aOoYuCjVvHt+/XHs+u3l8WXo1avvIq5VPomViqTvufNZjM3nk1jNwgsIRdM33t7PJQxn3nRPGBESseeaJ6RCeg/bqwSZiUSiAji4VJYxl636zj/oSNjU+t6Be3mNNjZLnEf9SssokyBqGhrTUinazXjUVX7KhZC5KODhe0eSAhC+tYnc1pDCcLZmkCqWlr8/MXjp8+ejIZb9hUrVDQBnmvnNvp9W1bpyygjQhqr3Zg5CaS5RIwOCMYyIynGL2FfmSgWEA3crtd2u486r5oeBETBCPYDloflxM4Pi7PPb4qT97cXx5aSMTKv8yiRQ4Uy8nruowdT6Sq+rQRNJ+12B20+bLRG0yxXZimseK1XTbfEe2gqjVmLQdVnp3o25Hlp9DJRcfLp9t2ppo55OMfYDXiqCE1BDLr1zxb688fhzdWlNUPvgcOoVBhrQwxAFSROuZnWFwOaLjAOiSIOF3RCU8IGroCEiB25al+d4+q4zLHssl72eL0SWGJpQDKx1fwjT4MXggwsMQwcmY8bFZYaM9nmTBtaY4feHSu3kaM06S+qImNpeWam0okETzAmDYpxbJVjEB922/dp2DFerr43Mol+z+aPfEZ6N6H6aGqXm0tfnJ7ffP1gq+Ep3DHPehUWvwB0zoGkkAQAAA==
+var rule = {
+    title: '海外剧汇',
+    host: 'https://www.hwjh.cc',
+    url: '/vodshow/fyclass--------fypage---.html',
+    searchUrl: '/vodsearch/**----------fypage---.html',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 1,
+    filter: '',
+    filter_url: '',
+    filter_def: {},
+    headers: {
+        'User-Agent': 'MOBILE_UA',
+    },
+    timeout: 5000,
+    class_parse: '.hl-menus li;a&&span&&Text;a&&href;.*/(.*?)\.html',
+    cate_exclude: '最新|排行',
+    play_parse: true,
+    lazy: $js.toString(() => {
+        input = {parse: 1, url: input, js: ''};
+    }),
+    double: true,
+    推荐: 'body&&.container;*;*;*;*;*',
+    一级: '.hl-vod-list&&li;.hl-item-title&&Text;.hl-lazy&&data-original;.remarks&&Text;a&&href',
+    二级: {
+        title: 'h2&&Text',
+        img: '.hl-lazy&&data-original',
+        desc: '.hl-dc-sub&&Text;.hl-data-menu&&span&&Text',
+        content: '.hl-content-text&&Text',
+        tabs: '.hl-plays-from&&a',
+        lists: '.hl-plays-list:eq(#id)&&li',
+        tab_text: 'body&&Text',
+        list_text: 'body&&Text',
+        list_url: 'a&&href'
+    },
+    搜索: '.hl-one-list&&li;.hl-item-title&&Text;*;*;*',
+}

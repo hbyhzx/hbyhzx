@@ -1,1 +1,108 @@
-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
+var rule = {
+    title: "影视看吧",
+    host: "https://m.yskanba.com",
+    url: "/fyfilter",
+    searchUrl: '/search/$wd/fypage',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 1,
+    filter: "H4sIAAAAAAAAA62XXVPaQBSG/wvXTr33r3R6ESUki2FDIQkfjjNUKiNMK9paPwrjx1SKbUFx7DgWiv4ZNwn/oidx2lHYN2jHCy9g9nE3J+95zrIUizOFFxjXYnMvl2KLaiE2FxNrFe98EJuJcSWl3v/sKIathgs5fe2Vu6Odk+Br+qCb1iz9pUyHqbOJQlrR1Be6lTJiyzP/VrsbzXurLTOdVZXMgh7N7B7eY7iZSxtKcFwMifcXole5vao9RA3FUjNTYW/t3C2vwlMq7DXh8m23m6LahmSeJW0p55Zr7spnyCUZTzL5Udub4tcAgouqbitcftRqO+ohkzZ8SHel421v4oe0gyxJyVF3K+q0KROftnZyO8TBiZtcK9qm/Lg7rdHBN4hmmA72dDtt73odgqadUuWP6V6diXoPgprCNUuRo+K4Pdqr4Oek3kP18bZwZYP6UG3lERrUxepVVPYCOzwO/dv8BGmQGv3YJZlIKE0xE+oY82r51Uyop6xOzfM8frKcJ8oJAOLNpSjX5YBp5+nQ8gbyT0qg9SynoHBsl/qx/wVwml3EzXN6Kfrd299fvQ1ptCwnyRSLdjVsbgDPXK8DsVkOtQHQGvUdpKjrNGTDnRbEMlChsOmoOBEd51704GbEgN2w6C0HWh7L2nIiTI19S3th2WJlWk6UL/FgoJzgqSAqq6IJ6s9VFgeHbAxv++3x9tRscwFamd5zdZLAaZoIYQjQvx9ff6caqkxK4f8lGmCPBTPFFpBxJuSEV7sb+15HmoOQIXuScuTv1GvU3L0+RAusqIP3U/kw2pMOzxBMhXuCF1Vedd8eQDQIkoaENZ6KsSeNisdOy212IJph8+MTZuq0D0E87cXpO2/wEYI5Chq4Z/o3+/5wCEmDKltE1trueZ++QzTPeALf+0Sz71XXIJy0g+pq82jol7v+UQlXmC6A4FoN9ReCEQb0bzbIZji+Ng/aVl6owyPR6EYUSjELULzNvru2i+tEXQMn7lFUmLK6ylGcvNY+XZMjUfrpIjFXkUpQYM8prqxu5h7trSmL3cZPyuxDxE7H6fcYBP3TG78njWmAJMKZ/lT1BGSUeUalqteWhjsgg2mbZ+BGAOdfQOIJiO8tARd5c4Hz4I7E44D8Ko63IWmbObClX+27zTMEFlgW3M2aJXr5ExHgam5KBO5AUd8UV+WHYNqeN1hWElHqheU/vFhpUtEQAAA=",
+    filter_url: "{{fl.分类}}",
+    filter_def: {
+        dianying: {
+            分类: "hot/hotmovie/fypage.html"
+        },
+        dianshiju: {
+            分类: "hot/hottv/fypage.html"
+        },
+        dongman: {
+            分类: "hot/topsearchcomic/fypage.html"
+        },
+        zongyi: {
+            分类: "hot/topsearchshow/fypage.html"
+        }
+    },
+    headers: {
+        "User-Agent": "MOBILE_UA"
+    },
+    timeout: 5000,
+    class_parse: ".subNav&&a;a&&Text;a&&href;([^\/]+$)",
+    cate_exclude: "推荐",
+    play_parse: true,
+    lazy: $js.toString(() => {
+        input = {parse: 0, url: input, js: ''};
+    }),
+    double: true,
+    推荐: '.main&&.globalPadding;.picTxtA&&li;*;img&&src;*;*',
+    一级: '.picTxtA&&li;.sTit&&Text;img&&data-original;.emScore&&Text;a&&href',
+    二级: {
+        title: 'h1&&Text;.ulTxt&&li&&Text',
+        img: '.posterPic&&img&&src',
+        desc: ';.ulTxt&&li:eq(1)&&Text;.ulTxt&&li:eq(2)&&Text;.zpmy&&Text',
+        content: '',
+        tabs: '.tabt3&&span',
+        //lists:'dd.ulNumList:eq(#id)&&li',
+        lists: $js.toString(() => {
+            LISTS = [];
+            //let tabs = pdfa(html,rule.二级.tabs);
+            let tabs = pdfa(html, 'dd.ulNumList');
+            // log(tabs.length);
+            //log(tabs[0]);
+            for (let tab of tabs) {
+                let lists = pdfa(tab, 'ul&&li');
+                // log(lists.length);
+                let list1 = [];
+                for (let ls of lists) {
+                    let tt = pdfh(ls, 'a&&Text');
+                    let href = pd(ls, 'a&&href', MY_URL);
+                    if (!tt.includes('展开')) {
+                        list1.push(tt + '$' + href);
+                    } else {
+                        let script = pdfh(ls, 'script&&Html');
+                        //log(script);
+                        let a = script.match(/window.*=(.*?);/)[1];
+                        //log(a);
+                        let b = eval(a);
+                        //log(b.length);
+                        let c = b.map(it => it.t + '$' + urljoin(MY_URL, it.l));
+                        // log(c);
+                        list1 = list1.concat(c);
+                    }
+
+                }
+                LISTS.push(list1);
+            }
+
+        }),
+        tab_text: 'body&&Text',
+        list_text: 'body&&Text',
+        list_url: 'a&&href'
+    },
+    搜索: $js.toString(() => {
+        function encodeWd(t) {
+            var n;
+            return t.length < 7 && (t = t + "       ".substr(0, 7 - t.length)),
+            t.length > 15 && (t = t.substr(0, 15)),
+                n = base64Encode(t),
+                n = n.replace(/\//g, "_").replace(/\+/g, "-").replace(/=/g, ""),
+                n = n.slice(0, 6) + "j" + n.slice(6);
+        }
+
+        let wd = encodeWd(KEY);
+        input = input.replace('$wd', wd);
+        input = urljoin(HOST, input);
+        let html = request(input);
+        let d = [];
+        let p = rule.一级.split(';');
+        pdfa(html, p[0]).forEach(it => {
+            d.push({
+                title: pdfh(it, p[1]),
+                img: pdfh(it, p[2]),
+                desc: pdfh(it, p[3]),
+                url: pd(it, p[4], input),
+            });
+
+        });
+        setResult(d);
+    }),
+}

@@ -1,1 +1,39 @@
-H4sIAFfAdWYC/5VWW6vj1hV+7684nMKczGjO0dWSdYYQZMmWZcu2bFmSrZeDZF1t3e/SMDC0JLQ0aYfSh9IWCn1oAyUJgVKalNI/M2em+ReVL5M46YS2AuO99/fttb691r6sQksuktwzL969ePqDi/bL3Mwzby+uXv/4k1e//OTlFz+7//SvV48PkBOmWYs4WRaltyCYmHrYbG+iJDzhIJgnXksAszoyQaveeFqaXlt1pNnmjZP53ol3YqVOWLYsy/UyMznHjyOavtcBPwbBV7/+7P7FH+9ffPb6Vx/f/+SD15///fUnv/3q+U/P2XdHo0+fWt7NRstMznj27PrQ0xJTe9PW64swubjMXN+8fDN2UPmm42mB/XXbzFrDbe/6tIa2cQBqU2uHvyW2dT3EUo568wGwSkCYvqh6oAcWE6fJGcacTwG7koXEjWBJ82RqpNGSzI0mujRN54ikzFZzwd+u81JiKFXs+1W6SlVCJchBQxKGL3u1L+MVUsdiAQaoT+akb/gGagCbAPZnpLnlVVJFXWWV7CxpV0RLDPOzpIxiweqAZarnalfEtbUPMhGKjxsQWbNMSRBw1o+ziJeLHGKqKlElfoEocZBpRchO+cFKZaPxMNQ0miQxUV26UaeXJ5ynR/E4sFeaJXdKGStwb6nOgjiweYrAsVgFieW89kNyPcZAYuCswtWwqqC1vVRBDwombCHTVCnbEg3hU2rNcJI9oEXFsgYsIi85hsrolN4gq1lBrk1TKrk1CfDSGCGizWJMBUBetNkpsnZFvTE+o7Z0DjKCNqCcDWPLNjr1YW26hGZUQHleugKkLNuVvRTQhJwgqFnfd/QO2KYUVldTe0V5ZFRFKGJb6oBC0ISQO4huJ1wUsqiRY2NQS2OfmuAdREKLUi0ZaiaMDcLlB1yvK/ggiiYLWHAVW2kUYMe5+gxVUH671tcrK5Y0BS00rBlRg76ZNJm13a52Ukz5GkJMEZQjKJqqAGSDsF60rRWKH9TkIkrpHadMaWIeUbPpWF1ZqMwBS2pg7fh1Z0kJVVpApk7lDh9YkTjtamTCFWy6wAJqXek1mKt93zMobjsyg6TjR5ZaubLM0gVZThGsixm9VEknS1zMZxBsZGUyN2RyVvWsiaGTHRjxkXncISquMxkrRLkD6WXdJ0UhHHUdgZt1bcLTzUVWbvOmZPLGG5E9K9RrqEWlBmctrqklU9x6EwMbLuLCBvv4dIANMVQOC4pgcbKHDdc1aoH+3FNjvkHJbTJYosVUy5JQy6ARooBEY/aq8dzdsTrl0QMPMkKppOIom4s8lIWLXRW7ke1xvMJNbZmzFjO9N54rojgXd1Mob6IxhoA51SnoRFX5HkoXi3oISEJiQKiYkxI8SQVLshxtBkArJinqLZ9BwGqwZXsdJHWTNQBW4gbk6SWuo1B3LSms3ECLPBSNhS0Xls4L7Z6ThQYZaevYz1fAOpx7aAoWgYkOpNFYX4+nEh81c0zdCMYAb8Q12wGWoVzWoUYAeqAH8gQJmGTrUUgAMFuP9JgWjMtS1vsQPhfKkbV0A1LX4O6OFXTAW2bytjOxYQHSI5pkIzRRpDZQ6SRk+rSmOXXo8kHeVYoIcjwXlscNYe/4rhG7Q8rBE7cNfcp0dMNiBXky8jtJd05HAkNjq5EkE6blpIkSg3C4282jfOXxkTjMksYU8npu6SN4Ru8oJOWxYjIg2ZwCFlZNJMtp40qOGjWIUk4XcD4ZEjaP0FXXqmOO8OYbecbIQOUzoUfoU5kE1X4BhFtaIdchuEFcxZ+iRjqOAhn3aGNgDydstV6EEtcw7Sbt6zKD+k6znUnxYJfXG362AbKAE4Gwbxmkj7iRgGuoZYpyoI+o7XJoK1aRl4EYr1XMxKjEGWwbBPdFZVq0IephDd6kO3g5qUlxCC6JEUd1aLQwx8pCtbeMiNrgilfXJbnFKKTLOgjFqlw5xHZxBTOwCfPViGI4ZTPjJq3e3oRCLKW9RMft1Yr7UrYmS5baWFIm6YSI1XNKgEAEpRtsPB9OTMODYHKEL+32XoozvCci/qC3dYpNDefTKt4YOz2DCiUfQO0hyJi2vcA20opwhY7VWa2KGeyzacQZsSQNNBV2cn3a4AtnpEpOTQLQzJ3MVyQL+rXQny82RtDUVtPdMQWHVsh2YbLADNb0Eqn8YmmyyATG9Qpx3LYzgydyh9CceYBZIBJ1m/GqZgPARCacTVHfeuvuDNO6PVUL+w9uO8cnt30F4atnj79GkHMEOUfQcwQ9R7BzBDtHOudI5+rZATjhafskbxzprPxwjetDTfFeabz76NHVOe1YWSDfrSze//j+8+evXvzu9V/+cGTHubvZiYcptxfQd+n//PNXz39/TndMzTCT9Dw0V1JqJteUbQbZVatMou+kN7E8CT9UH3eRlqT7ousmzXL3+mjo7s43g/zCc2+97B384RPtwYOlWWX7fycxrSc3j8B3bh699/C8coo8rX5jLEty8zjqaU3dGj9xPNd32zIOP/Ze/fzjf330okVz7+i8CA3PTbO2LGoXbrnVE8/duzyUhU9u9qa8UDMePDC0TLsOE9d2A817chO5m+uslfdtkSeXRpgfQn6Q1JaJJ6/3H7x//+kXp6D+4sP7z390/+lvXv7jo8Ocl397/vrLP30dk5Osi3M12v+n4uWXHx4sfpOey4Ody9uLy6OTTRhkbaru2h2eaa53cXPAT8beToluzfida+ThkXT5zW69dH37LZYzJ/f1i++L4/l8w0w33y/t4Bd6+N+1wf8D523yT8SDgiP3PzmZpqcHQqAV+9/1fqBN0Tlnn7X0LevYb9U9tvf/Q9d4uJ92fjCOJ6vN//7sPvs385BR06cMAAA=
+var rule = {
+    title: '热播之家',
+    host: 'https://rebozj.pro',
+    //url: '/type/fyclass-fypage.html',
+    url: '/show/fyfilter.html',
+    filterable: 1,//是否启用分类筛选,
+    filter_url: '{{fl.cateId}}-{{fl.area}}-{{fl.by or "time"}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
+    filter: 'H4sIAAAAAAAAA+1Z704bRxB/l/vMhzuDDeQN+gxVPrip1UalVAJaCUVIJMbUNsQ2UWOXQPmjYuwUDAZSEmxsXsZ7Z79Fz97dmVlymV6x2yqSv/n3m9u9mdmd3d+cn1mO9ejLZ9Z3iWXrkfUkvpT44mtrwpqPf5/wsbuZ8S6aYm/Dp36Kz/2YGDw771tEqtpLVvu0DxxrZULR2WqntavoGNLFXZGpKHoaaC994SZTip5BurIlbpqKngXafV5wV4v6lTZOnqngLA764qZ/7TQymo9YK4/7FhXoXHxx0YgTZ/l0nMGvVCAwVgUC06NAYDIUgFCSWffFG2VTIDAtCsCc2XOv9YeeUwIY9+LUK27pcRKAn+uvettvtZ8SBK6OAjCu/DPaFAhcDgVg3Nm1aNT0OAnAllsX+UttkwBs+aPu77AOEmhb5/age1ZXNgXAl9pxp32gfZFA23r7V52bgrIpoG3du4K/asqmAM652U3vwZwDAOPKd7iLFIB8Pm/33rR1PiWgWzW+kIibO3W3LjYbYXfqUaW3va4zJAFEerztfjjXkUqAma27N23I7ACAx+2c2GlpjyWALFy9RpsCkIWNC7QpAONKZXf3VI+TAFfkLY5TAPxsv0ebAuhLnfpSN8a9rIvGsR4nAYxby/uZEmldAIjJenr5mpfZxiVVGCv9wN2484dBsWsMT6SuO01dtwrQdV9OxBfMdb9512m2Qq57xI5MKW7wk/CTyE9SPoJ8hPIO8g7lbeRtwjuzwDuzlJ9Bfoby08hPUz6GfIzyUeSjlMd4HRqvg/E6NF4H43VovA7G69B4HYy3f/mQlZqLz39jrFT3vNatroat0J2W/7zeBxKQikGbAlCFl0doUwAqptQSL0toRkxqipglILWINgVIfRObBKQWSSQSkN0uzpK42/uA5vCrZZLB3CvRyH+UPrd03Su9U1MsPfUfhaO+0XDrvyjLt0+XFjGB52sirY+/xSc/LCT6b308YUWGVz0RuoSdRgVvfbLP/DPVPz2JaYqmuX+YoQl3s/vne3FUJKbYKNULpzQ4ZcPdF6zSYG5+ToVwyoa7+bnbnVM2nDrjlA2n+Djl9lDVwyqwwVbE06QPwJfTin9ba18kGPb+lTtVj5Mg1P0bpC9Gp3rWU/7zsMoDECaahyoiLnu8Wvp0hli1VKz7gkL8dqiHAh6ri7G6sD5bdfGPVMJm5r8QCpPDC4XJUV7efhsrWq/1okkQpuXlLpSHtrzePuyQfbJ1OCkA2sL4vMF9GuA+Rfy7rTNziUhZpz2WwNR1uMH7gL2Cx8fyqI7lQcVODV+xmDol7bNV9/ZEv+ojCW9Yo/c2iWmN3dsKpnV6lCdFgHMGxYRoUIzDBsWEbVD3mhzjOUqFkuycLOc+tnIS+oEfd9m2ipP6a3feSVnbJAjTHgWfvuwnSqYZ4e4ArhFjz26mSWNvCaaB4z6zsk1TMy9SH/T7JIA5C3veKWRZgjDS3g/XLZYw9j4A28Gh2AGZIwH4kqx1D1e1LxJADIWcOIM6lCBMA2fW771KS6a6mUtY9wGAcfUtUb7S4yQAP0/23Cz4KQHMedl019J6TgnAlqt6BS2mFBjhvcy1uNxqcdkbt0vWuF0at0tDt0vR4cUX7iP5f5XXvO1mGspIdqUUFaZ1hubNz6RhJZUhy9+0OiMQX9G/myPEQRcdnzyfz8kDvI3x2jReG+O1abw2xmvTeG2M16bx2hivTeO1MV57ahQn4f/2p8zKXyGn+e2MIgAA',
+    filter_def: {
+        1: {cateId: '1'},
+        2: {cateId: '2'},
+        3: {cateId: '3'},
+        4: {cateId: '4'},
+        5: {cateId: '5'}
+    },
+    searchUrl: '/type/id-.html?wd=**',
+    searchable: 2,//是否启用全局搜索,
+    quickSearch: 0,//是否启用快速搜索,
+    headers: {
+        'User-Agent': 'UC_UA',
+    },
+    class_parse: '.stui-header__menu li:lt(6);a&&Text;a&&href;.*/(.*?).html',
+    play_parse: true,
+    tab_remove: ['蓝光专享1', '夸克4K', '极速有广①', '极速有广②'],
+    lazy: '',
+    limit: 6,
+    推荐: 'ul.stui-vodlist.clearfix;li;a&&title;.lazyload&&data-original;.pic-text&&Text;a&&href',
+    double: true, // 推荐内容是否双层定位
+    一级: '.stui-vodlist li;a&&title;a&&data-original;.pic-text&&Text;a&&href',
+    二级: {
+        "title": ".stui-content__detail .title&&Text;.stui-content__detail p:eq(-2)&&Text",
+        "img": ".stui-content__thumb .lazyload&&data-original",
+        "desc": ".stui-content__detail p:eq(0)&&Text;.stui-content__detail p:eq(1)&&Text;.stui-content__detail p:eq(2)&&Text",
+        "content": ".detail&&Text",
+        "tabs": ".nav.nav-tabs li",
+        "lists": ".stui-content__playlist:eq(#id) li"
+    },
+    搜索: '*',
+}

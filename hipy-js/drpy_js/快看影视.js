@@ -1,1 +1,11 @@
-H4sIAFfAdWYC/02Ozw7BQBDG732KPfmztHsn3oKbRBZb29jaZna1RCRcJMIb4OBEiIgHEE+jeAurqfBdZuY33zcZgrGFMIrX88dp9ZrMX4fl8zw1iFghBQR9wVAFjSxkFO+38eZWQll/EIDMFhOoPS2YYffb8bFe3K+X526WrrhU2my41oEqERJFkdPthrLtSOiklj4I4yAGKi4j4g5bgiplp3KHAe0w0zhc+yKNKEahxWu/YDITjG37l/ue+Q8mrBFQUJ9/nR4NmxRsTzNfIeGVaSZTZQP9qRyYWya5er1dyH8vjN/7h+k0KgEAAA==
+/**
+ * 有筛选验证
+ */
+var rule = {
+    模板: 'mxpro',
+    title: '快看影视',
+    host: 'https://www.kkvod.org',
+    url: '/vodshow/fyclass--------fypage---.html',
+    searchUrl: '/vodsearch/**----------fyclass---.html',
+    class_parse: '.navbar-items li;a&&Text;a&&href;/(\\d+).html',
+}

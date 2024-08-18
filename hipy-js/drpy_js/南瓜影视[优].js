@@ -1,1 +1,183 @@
-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
+// 注入全局方法 (仅支持tvbox的js1以及c#版drpy的js0，暂不支持drpy官方py版的js0)
+// 注入全局方法 (仅支持tvbox的js1以及c#版drpy的js0，暂不支持drpy官方py版的js0)
+// 注入全局方法 (仅支持tvbox的js1以及c#版drpy的js0，暂不支持drpy官方py版的js0)
+globalThis.getHeaders = function (input) {
+    let t = new Date().getTime().toString();
+    let headers = {
+        'version_name': '1.0.6',
+        'version_code': '6',
+        'package_name': 'com.app.nanguatv',
+        'sign': md5('c431ea542cee9679#uBFszdEM0oL0JRn@' + t).toUpperCase(),
+        'imei': 'c431ea542cee9679',
+        'timeMillis': t,
+        'User-Agent': 'okhttp/4.6.0'
+    };
+    return headers
+}
+
+var rule = {
+    title: '南瓜影视[优]',
+    host: 'http://ys.changmengyun.com',
+    homeUrl: '/api.php/provide/vod_rank?app=ylys&sort_type=month&imei=c431ea542cee9679&id=2&page=1',
+    url: '/api.php/provide/vod_list?app=ylys&id=fyclassfyfilter&page=fypage&imei=c431ea542cee9679',
+    detailUrl: '/api.php/provide/vod_detail?app=ylys&imei=c431ea542cee9679&id=fyid',
+    searchUrl: '/api.php/provide/search_result_more?app=ylys&video_name=**&pageSize=20&tid=0&imei=c431ea542cee9679&page=fypage',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 1,
+    filter_url: '&area={{fl.area}}&year={{fl.year}}&type={{fl.class}}&total={{fl.total or "状态"}}&order={{fl.by or "新上线"}}',
+    filter: 'H4sIAAAAAAAAA+2X0XLSQBSG3yXXXARoKfRVnF5EhyuxzrTVGabDTCtSC21B6wxai9WOLcGxlKC1QjDty2Q38BYmJHvOWZwJdoxe5Y7vPz+bZXf/s2FTSSrL9zaVh/misqw8KGjr60pCWdUe5V10+iN2sufyU63wJD/1rboyq3Qm5Y4no6eUCGq1jm21nOqLoIwMjmaLVXXiABYOZ7fPyxV0IINDf8WGI+IAFg6+/ZJvNdGBDPOo6tJTkGGM3be2WSVjAIOjXOPP3hEHcGnF8/irqq3lNVxU1jLYvhm+qIEHpnpQH/e6ouaDqE3aR3zQw0FnJViymzo7tsR6+QA/40LnV1/Fb/ABxv/wGb8XAHzvzTlvXYjv+QBzbhh8eCPNS5JgjG8Gjh/AXcdgBwYz27A+U4Ba5ZpdlkXNB7o5xby2RjZneGWPrDmb43vEA1JqaiGoTD8SPY16muop1FNUT6KepLqKukr0ZA509yPRs6hnqb6E+hLVM6hnqL6I+iLoSXW6AJ+CGqCoq3Jdna3n5Hputp6V64B00+4Xcct4/ZCZjd+2zCl3+WGXt1viyAPDyTi3xr3n6ECGs9k07EHNMW/F8QR2J7OSUFLRts5jyzZ1tw2J+QDDfNxUNwx0IEfbbnYqriJqPty13cyNbhzBOIIRRDAdbQTP9MnRjpiMD3L4pOTRi9C9GvEi9IBcru51i5erB/8trpFOOr5R4ziHxnleWBf+wX3Jf36R7kuP5VOMDmQ5A8QBLCeIOIAjDbE96Lrzl/qPJP3JK3foq3oc6DjQ0QYaHrXxeEMrkCjXrvnW9pwo+x7xnPHtydgSJzcAOJ2X+87otThYPgTtJBNpP/GzT96ugeUQEQcwOL7/YGdN4gCOtFuEJV2a4ez0QrpH2B/x8V4fawGQM8JqH9n7UzwjAZP+Yo+a2F88iPtL3F/+/v2/9AsqovmovxQAAA==',
+    headers: {
+        "User-Agent": "okhttp/4.6.0"
+    },
+    timeout: 5000,
+    class_name: '电视剧&电影&动漫&综艺&海外精选', // /api.php/provide/home_nav
+    class_url: '2&1&4&3&46',
+    limit: 20,
+    play_parse: true,
+    lazy: `js:
+        try {
+            function getvideo(url) {
+                let jData = JSON.parse(request(url, {
+                    headers: getHeaders(url)
+                }));
+                if (jData.code == 1) {
+                    return jData.data.url
+                } else {
+                    return 'http://43.154.104.152:1234/jhapi/cs.php?url=' + url.split('=')[1]
+                }
+            }
+            if (/,/.test(input)) {
+                let mjurl = input.split(',')[1]
+                let videoUrl = getvideo(mjurl);
+                input = {
+                    jx: 0,
+                    url: videoUrl,
+                    parse: 0,
+                    header: JSON.stringify({
+                        'user-agent': 'Lavf/58.12.100'
+                    })
+                }
+            } else {
+                let videoUrl = getvideo(input);
+                if (/jhapi/.test(videoUrl)) {
+                    videoUrl = getvideo(videoUrl);
+                    input = {
+                        jx: 0,
+                        url: videoUrl,
+                        parse: 0,
+                        header: JSON.stringify({
+                            'user-agent': 'Lavf/58.12.100'
+                        })
+                    }
+                } else {
+                    input = {
+                        jx: 0,
+                        url: videoUrl,
+                        parse: 0
+                    }
+                }
+            }
+        } catch (e) {
+            log(e.toString())
+        }
+	`,
+    推荐: `js:
+        var d = [];
+        let html = request(input, {
+            headers: getHeaders(input)
+        });
+        html = JSON.parse(html);
+        html.forEach(function(it) {
+            d.push({
+                title: it.name,
+                img: it.img,
+                desc: it.remarks,
+                url: it.id
+            })
+        });
+        setResult(d);
+    `,
+    一级: `js:
+		var d = [];
+		let html = request(input, {
+			headers: getHeaders(input)
+		});
+		html = JSON.parse(html);
+		html.list.forEach(function(it) {
+			d.push({
+				title: it.name,
+				img: it.img,
+				desc: it.msg,
+				url: it.id
+			})
+		});
+		setResult(d);
+	`,
+    二级: `js:
+        var d = [];
+        VOD = {
+            vod_id: input.split('id=')[1]
+        };
+        try {
+            let html = request(input, {
+                headers: getHeaders(input)
+            });
+            html = JSON.parse(html);
+            let node = html.data;
+            VOD = {
+                vod_name: node['name'],
+                vod_pic: node['img'],
+                type_name: node['type'],
+                vod_year: node['year'],
+                vod_remarks: '更新至: ' + node['msg'] + ' / 评分: ' + node['score'],
+                vod_content: node['info'].strip()
+            };
+            let episodes = node.player_info;
+            let playMap = {};
+            if (typeof play_url === 'undefined') {
+                var play_url = ''
+            }
+            episodes.forEach(function(ep) {
+                let playurls = ep['video_info'];
+                playurls.forEach(function(playurl) {
+                    let source = ep['show'];
+                    if (!playMap.hasOwnProperty(source)) {
+                        playMap[source] = []
+                    }
+                    playMap[source].append(playurl['name'].strip() + '$' + play_url + urlencode(playurl['url']))
+                })
+            });
+            let playFrom = [];
+            let playList = [];
+            Object.keys(playMap)
+                .forEach(function(key) {
+                    playFrom.append(key);
+                    playList.append(playMap[key].join('#'))
+                });
+            let vod_play_from = playFrom.join('$$$');
+            let vod_play_url = playList.join('$$$');
+            VOD['vod_play_from'] = vod_play_from;
+            VOD['vod_play_url'] = vod_play_url
+        } catch (e) {
+            log('获取二级详情页发生错误:' + e.message)
+        }
+	`,
+    搜索: `js:
+        var d = [];
+        let html = request(input, {
+            headers: getHeaders(input)
+        });
+        html = JSON.parse(html);
+        html.data.forEach(function(it) {
+            d.push({
+                title: it.video_name,
+                img: it.img,
+                desc: it.qingxidu + '/' + it.category,
+                url: it.id,
+                content: it.blurb
+            })
+        });
+        setResult(d);
+    `,
+}

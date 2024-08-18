@@ -1,1 +1,74 @@
-Ly8g5Zyw5Z2A5Y+R5biD6aG1IGh0dHBzOi8vd3d3LmRhbmRhbmp1LnZpcAovLyDmkJzntKLlronlhajpqozor4EgPiDpgJrov4dkcnB5X29jcumqjOivgeeggeaOpeWPo+i/h+mqjOivgU9LCnZhciBydWxlID0gewogICAgdGl0bGU6ICfom4vom4vliacnLAogICAgLy8gaG9zdDonaHR0cHM6Ly93d3cuZGFuZGFuanUuY2MnLAogICAgaG9zdDogJ2h0dHBzOi8vd3d3LmRhbmRhbmp1LnZpcCcsCiAgICBob3N0SnM6ICdwcmludChIT1NUKTtsZXQgaHRtbD1yZXF1ZXN0KEhPU1Qse2hlYWRlcnM6eyJVc2VyLUFnZW50IjpQQ19VQX19KTtsZXQgc3JjPWpzcC5wZGZoKGh0bWwsImE6ZXEoMCkmJmhyZWYiKTtwcmludChzcmMpO0hPU1Q9c3JjJywKICAgIC8vIHVybDonL3Nob3cvZnljbGFzcy0tLS0tLS0tZnlwYWdlLS0tLmh0bWwnLAogICAgdXJsOiAnL3Nob3cvZnljbGFzc2Z5ZmlsdGVyLmh0bWwnLAogICAgZmlsdGVyYWJsZTogMSwvL+aYr+WQpuWQr+eUqOWIhuexu+etm+mAiSwKICAgIGZpbHRlcl91cmw6ICcte3tmbC5hcmVhfX0te3tmbC5ieX19LXt7ZmwuY2xhc3N9fS17e2ZsLmxhbmd9fS17e2ZsLmxldHRlcn19LS0tZnlwYWdlLS0te3tmbC55ZWFyfX0nLAogICAgZmlsdGVyOiAnSDRzSUFBQUFBQUFBQSsyWTNXNGFSeFRIWHlYYWExL3M0bncxcnhMbGdrWklpWnFta3AxR3NpSkx0akVFaUFzWU9UZ0UvTlVZNHpqR1htekhnYVhBeSt6TXdsdDAyRGtmZzFxdlVHT2xTdVE3ZnVmTXpKNXpodm1mMlgxbE9kYURoNitzWHhJTDFnUHI4YlA0L0x3MVl6MlAvNXBRS0xJTm1Vd3BmaGwvOW5zaUhQZDhiRTRkanBLSFk3TUNhM0VHck9XYUdnOVdBUFFGbVJZc3hJQytXM0s1S0pmSzRBU2dSWE9IZnErR2kycWdSUnZyb3RQRlJUWFFQSXFjQVgweTg4NzNzdmc4RGVnYk5nL0UyaEg0QU9oNXVkT2doejRBSTg1Z284dHhqb0Y4OWRjY0p3REYwanp3KzdzWWl3YWFseTZOS2g5eG5nYWF0MzJrSXNkNUdzZ1hVVSs1Y2h5VTE5R25nWHpKbkZ4NWp6NE5sSHUzSUZKdHpGMEQra1piSmZtdURqNEFXclA4ZXBqMWNFME5sRi8vSk5qNExIb3RUSkdZUmhUMmh4OW9GeldRTDU4V2hUUDBhYUJkSEJUVkh1QXVhdUNxMXVUV09sVTFCUEt0RG9KUG1Ba0FWYUMzSG5SckV3RlBtQllmalVmcVl4U2ZTOFNOVTFSenhabzM3U25hYjR3cWFReEJBeFg2b0NMYnAxaG9EVndxVjNiNlZLb1FLUFIrWGxSN0dMUUcycUR6dCt3RG9ESythYkVQZ09adDFtWHRHT2Rwb0RoM1B2SThBTjcwTCt3RDRGaGNNeFozWXQ0ZnJ2QU9jSjRHbXJkYVVKVVNHVHdyekpSSmZSQVVta0cyZ3NrUTh3SGVsVzhHYWhxZFlXUWFrYnIwdTNpc0FNeE5YMGpFNTR4TjcxejQzZDZVbXg2elk3ZkJGdjQwN0xOc256WHRNYmJIVEx2RGRzZTAyMnkzRGJ2ekU5blZUOE4rbiszM1Rmczl0dDh6N1hmWmZ0ZTAzMkg3SGRQTytUcG12ZzduNjVqNU9weXZZK2JyY0w2T21hL0QrYXFmNWpiOXZNQ2JKUE1sNFJYK3NVbHk4M0swZVFFTHZIaXFodUxDdnVkSmR3TThUNTYrbU9kLzJPbXF5T0M1blgvODIxeGkvTlJITTFic3V0cHJoQlpHZFRRdHlHTDVVaVFMRXhvTnBtbmF0emk1RkY0VGZScW03SXBYZHUrb3JoalZ2YU4wUDZwTCtaMDkxbjBBN253cFdVRmhCYURudlUxenB3VXdlZ0xYREdCYXVmaWFIcEZPcWZIVXdrS1lSbnYvYS8rSTB2cm8zbksxbmtmMmxyS3I1RmRzN2RHOUFmbEdpNzkvTFNhN3pmbmFacjQyNTJ1YitkcWNsMjNtWlhOZXRwbVh6WG1wbi85bkQ1aTlwaDR3V3NvR2pTVTh3QnBNRFZ2ZE1UUk1BUVYyTWhpNkdUeHNHbWhlcVNsemVPY0Y0SU9ma20zVVV3QVdtbk8vVXlTaENjRVFoZEVIakFXQWZONlJPTmxHbndaNlh2WE1lRnZRUVBNMmR1UUZ2ZTFwb0hudHRzd1VmSy9FdC80SkU5WGg0ay9WRmJBT0dtaU4xc3B3ZVExbmEvZ0dlcTAwV0trdEJSMkNvYnRLd1ZsM3gwQys0NFlxTFBvMDNDamdqNjZBbks5dDV2djlLdVB0YTFMR0tQV0wrazRVSkp2RFBWUlVBRm96ZnhnVU1XZ0E4aFczZzJQNmpxS0JqL3ZWMzIyR3hhMWhIbS9xQUxUbTdwNm80aTBiWUpxYnRLeDV4cmNnRGZTOGlDOGhVVzhOd2xWbHdrMEdNSDMxYzhPbmdPcTUzL2Yvd205SUFIeHozeEdaS3QzY1ErQy96cGxvWWpjQm9EV3JPVm5CcmdEQWRXbUp3U2JWSllSdmNRT3Y5bnlQWHBZMFRITmIvbGZWdnJuVDNpajZqNkxvaTM4RFgveWcybEFZQUFBPScsCiAgICBzZWFyY2hVcmw6ICcvc2VhcmNoLyoqLS0tLS0tLS0tLWZ5cGFnZS0tLS5odG1sJywKICAgIHNlYXJjaGFibGU6IDIsLy/mmK/lkKblkK/nlKjlhajlsYDmkJzntKIsCiAgICBxdWlja1NlYXJjaDogMCwvL+aYr+WQpuWQr+eUqOW/q+mAn+aQnOe0oiwKICAgIGhlYWRlcnM6IHsKICAgICAgICAnVXNlci1BZ2VudCc6ICdNT0JJTEVfVUEnCiAgICB9LAogICAgdGltZW91dDogNTAwMCwvL+e9keermeeahOWFqOWxgOivt+axgui2heaXtizpu5jorqTmmK8zMDAw5q+r56eSCiAgICBjbGFzc19wYXJzZTogJ3VsLnN3aXBlci13cmFwcGVyJiZsaTthJiZUZXh0O2EmJmhyZWY7LiovKC4qPykuaHRtbCcsCiAgICBwbGF5X3BhcnNlOiB0cnVlLAogICAgbGF6eTogYGpzOgogICAgICAgIHZhciBodG1sID0gSlNPTi5wYXJzZShyZXF1ZXN0KGlucHV0KS5tYXRjaCgvciBwbGF5ZXJfLio/PSguKj8pPC8pWzFdKTsKICAgICAgICB2YXIgdXJsID0gaHRtbC51cmw7CiAgICAgICAgdmFyIGZyb20gPSBodG1sLmZyb207CiAgICAgICAgaWYgKGh0bWwuZW5jcnlwdCA9PSAnMScpIHsKICAgICAgICAgICAgdXJsID0gdW5lc2NhcGUodXJsKQogICAgICAgIH0gZWxzZSBpZiAoaHRtbC5lbmNyeXB0ID09ICcyJykgewogICAgICAgICAgICB1cmwgPSB1bmVzY2FwZShiYXNlNjREZWNvZGUodXJsKSkKICAgICAgICB9CiAgICAgICAgaWYgKC9tM3U4fG1wNC8udGVzdCh1cmwpKSB7CiAgICAgICAgICAgIGlucHV0ID0gdXJsCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdmFyIE1hY1BsYXllckNvbmZpZz17fTsKICAgICAgICAgICAgZXZhbChmZXRjaChIT1NUICsgIi9zdGF0aWMvanMvcGxheWVyY29uZmlnLmpzIikucmVwbGFjZSgndmFyIE1hYycsJ01hYycpKTsKICAgICAgICAgICAgdmFyIGp4ID0gTWFjUGxheWVyQ29uZmlnLnBsYXllcl9saXN0W2Zyb21dLnBhcnNlOwogICAgICAgICAgICBpZiAoanggPT0gJycpIHsKICAgICAgICAgICAgICAgIGp4ID0gTWFjUGxheWVyQ29uZmlnLnBhcnNlCiAgICAgICAgICAgIH07CiAgICAgICAgICAgIGlmIChqeC5zdGFydHNXaXRoKCIvIikpIHsKICAgICAgICAgICAgICAgIGp4ID0gSE9TVCArIGp4OwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlucHV0PXtqeDowLHVybDpqeCt1cmwscGFyc2U6MSwKICAgICAgICAgICAgICAgIGhlYWRlcjogSlNPTi5zdHJpbmdpZnkoewogICAgICAgICAgICAgICAgICAgICdyZWZlcmVyJzogaW5wdXQKICAgICAgICAgICAgICAgIH0pfQogICAgICAgIH0KICAgIGAsCiAgICBsaW1pdDogNiwKICAgIOaOqOiNkDogJy50YWItY29udGVudCYmbGk7KjsqOyo7KicsCiAgICDkuIDnuqc6ICcuZXdhdmUtdm9kbGlzdCYmbGk7Lmxhenlsb2FkJiZ0aXRsZTsubGF6eWxvYWQmJmRhdGEtb3JpZ2luYWw7LnBpYy10ZXh0JiZUZXh0O2EmJmhyZWYnLAogICAg5LqM57qnOiB7CiAgICAgICAgInRpdGxlIjogIi5waWN0dXJlJiZ0aXRsZTsuZGF0YS0tc3BhbjplcSgwKSYmVGV4dCIsCiAgICAgICAgImltZyI6ICIucGljdHVyZSYmaW1nJiZkYXRhLW9yaWdpbmFsIiwKICAgICAgICAiZGVzYyI6ICIucGljLXRleHQ6ZXEoMCkmJlRleHQ7OzsuZGF0YS0tc3BhbjplcSgxKSYmVGV4dDsuZGF0YS0tc3BhbjplcSgyKSYmVGV4dCIsCiAgICAgICAgImNvbnRlbnQiOiAiLmRlc2MtLWEmJlRleHQiLAogICAgICAgICJ0YWJzIjogIi5uYXYtdGFicyYmbGkiLAogICAgICAgICJsaXN0cyI6ICIudGFiLXBhbmU6ZXEoI2lkKSYmbGkiCiAgICB9LAogICAg5pCc57SiOiAnLmV3YXZlLXZvZGxpc3RfX21lZGlhJiZsaTthJiZ0aXRsZTthJiZkYXRhLW9yaWdpbmFsOy5oaWRkZW4teHMtLXNwYW4mJlRleHQ7YSYmaHJlZicsCn0=
+// 地址发布页 https://www.dandanju.vip
+// 搜索安全验证 > 通过drpy_ocr验证码接口过验证OK
+var rule = {
+    title: '蛋蛋剧',
+    // host:'https://www.dandanju.cc',
+    host: 'https://www.dandanju.tv',
+    //hostJs: 'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"a:eq(0)&&href");print(src);HOST=src',
+    url: '/type/fyclass.html',
+    searchUrl: '/index.php/rss.xml?wd=**',
+    搜索: $js.toString(() => {
+        let html = request(input);
+        let items = pdfa(html, 'rss&&item');
+        // log(items);
+        let d = [];
+        items.forEach(it => {
+            it = it.replace(/title|link|author|pubdate|description/g, 'p');
+            let url = pdfh(it, 'p:eq(1)&&Text');
+            d.push({
+                title: pdfh(it, 'p&&Text'),
+                url: url,
+                desc: pdfh(it, 'p:eq(3)&&Text'),
+                content: pdfh(it, 'p:eq(4)&&Text'),
+                pic_url: "",
+            });
+        });
+        setResult(d);
+    }),
+    searchable: 2,//是否启用全局搜索,
+    quickSearch: 0,//是否启用快速搜索,
+    headers: {
+        'User-Agent': 'MOBILE_UA'
+    },
+    timeout: 5000,//网站的全局请求超时,默认是3000毫秒
+    class_parse: 'ul.swiper-wrapper&&li;a&&Text;a&&href;.*/(.*?).html',
+    play_parse: true,
+    lazy: `js:
+        var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+        var url = html.url;
+        var from = html.from;
+        if (html.encrypt == '1') {
+            url = unescape(url)
+        } else if (html.encrypt == '2') {
+            url = unescape(base64Decode(url))
+        }
+        if (/m3u8|mp4/.test(url)) {
+            input = url
+        } else {
+            var MacPlayerConfig={};
+            eval(fetch(HOST + "/static/js/playerconfig.js").replace('var Mac','Mac'));
+            var jx = MacPlayerConfig.player_list[from].parse;
+            if (jx == '') {
+                jx = MacPlayerConfig.parse
+            };
+            if (jx.startsWith("/")) {
+                jx = HOST + jx;
+            }
+            input={jx:0,url:jx+url,parse:1,
+                header: JSON.stringify({
+                    'referer': input
+                })}
+        }
+    `,
+    limit: 6,
+    推荐: '.tab-content&&li;*;*;*;*',
+    一级: 'body&&.ewave-vodlist__box;h4&&a&&Text;.lazyload&&data-original;.pic-text&&Text;h4&&a&&href',
+    二级: {
+        "title": ".picture&&title;.data--span:eq(0)&&Text",
+        "img": ".picture&&img&&data-original",
+        "desc": ".pic-text:eq(0)&&Text;;;.data--span:eq(1)&&Text;.data--span:eq(2)&&Text",
+        "content": ".desc--a&&Text",
+        "tabs": ".nav-tabs&&li",
+        "lists": ".tab-pane:eq(#id)&&li"
+    },
+}

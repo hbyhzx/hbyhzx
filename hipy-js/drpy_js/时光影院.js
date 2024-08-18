@@ -1,1 +1,25 @@
-dmFyIHJ1bGUgPSB7CiAgICDmqKHmnb86ICdteG9uZTUnLAogICAgdGl0bGU6ICfml7blhYnlvbHpmaInLAogICAgaG9zdDogJ2h0dHBzOi8vd3d3LnRpbWUtY2hpY2tlbi5jb20nLAogICAgdXJsOiAnL3ZvZC9zaG93L2lkL2Z5Y2xhc3MvcGFnZS9meXBhZ2UuaHRtbCcsCiAgICBzZWFyY2hVcmw6ICcvdm9kL3NlYXJjaC9wYWdlL2Z5cGFnZS93ZC8qKi5odG1sJywKfQ==
+var rule = {
+    title: '时光影院',
+    host: 'https://www.time-chicken.com',
+    url: '/vod/show/id/fyclass/page/fypage.html',
+    searchUrl: '/vod/search/page/fypage/wd/**.html',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 0,
+    class_parse: '.nav-menu-items&&li;a&&Text;a&&href;.*/(.*?).html',
+    play_parse: true,
+    lazy: '',
+    limit: 6,
+    推荐: '.module-list;.module-items&&.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
+    double: true,
+    一级: '.module-items .module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
+    二级: {
+        title: 'h1&&Text;.tag-link&&Text',
+        img: '.module-item-pic&&img&&data-src',
+        desc: '.video-info-items:eq(0)&&Text;.video-info-items:eq(1)&&Text;.video-info-items:eq(2)&&Text;.video-info-items:eq(3)&&Text',
+        content: '.vod_content&&Text',
+        tabs: '.module-tab-item--small',
+        lists: '.module-player-list:eq(#id)&&.scroll-content&&a',
+    },
+    搜索: '.module-items .module-search-item;h3&&Text;img&&data-src;.video-serial&&Text;a&&href',
+}

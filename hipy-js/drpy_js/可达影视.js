@@ -1,1 +1,88 @@
-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
+var rule = {
+    title: '可达影视',
+    host: 'https://kedays.org',
+    // url:'/shaixuan/fyclass--------fypage---.html',
+    url: '/shaixuan/fyclass-fyfilter.html',
+    searchUrl: '/so/**----------fypage---.html',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 1,
+    filter: 'H4sIAAAAAAAAA+2a2U7bUBCG38XXXByHspQ7yr7va8VFVCJIC0FiqUoREhWLoBQoCJIGQkslAqEiEFq6EBTyMrET3qIGz5kZ7vwAc5f/G/vYv3MMnxBzxnDQH5oNhkaMipdzxpvArFFhWLGU9SltFBkh/3iA57f+sZnA44GhB7ycuF9MPGAnGPNFQI9P76MrQCHo2f1J1P53CTMIeN5Wyr650+e5Qc/yd5vWQQZmEHDNb2c0g6BndiRux85hBgFnv1J0HgSchVPWxyPr8LseY8arnp3bh/FCPJtL7+trc4StNlJW+kS3coOeFdav6A4g0N3t8bvb4zPnVuz1rPNo9bKYceV4Nr+VzK9F9eKY9RG57FI+E7HD+sugjFdZ/mNdLOpLuGF+6GEKm2Tt1F5cZptEZy+bJL96BQdToHqJXCaG3R4DzsIx5zp65gZ8ZKtfcuk1/cjcgNc73bZubvX13IBr4o1TwDWTJ7m7I72mG/C8lZ376Jk+zw143tcfzh3o89yAsw+f7YWwnrkB17y7yO/+tjJXelnMXr+WwmWykFigrwWzp3f3IOMcrxd3A9utNIOAj/fnMc0g4JsSyVgbERpTZm8wG7uBvcE0g8DeETZzAz3Iv6yJGzzv7Jvr3G2G7WydvTxCn/I9A/b4kfFi4sWc+4j7ODeJm5wr4opx8zly5yPj5cTLOS8jXsZ5KfFSzkuIl3BOfU3e16S+Ju9rUl+T9zWpr8n7mtTX5H0V9VW8r6K+ivdV1Ffxvor6Kt5XUV/F+yrqq3hfRX0V76uor+J9FfVVvK+ivs7HJxszGbEvN9jG1NnLxqwEUInkBZAXSKqAVCGpBlKNpAZIDZJaILVI6oDUIakHUo+kAUgDkkYgjUiagDQhaQbSjKQFSAuSViCtSNqAtCFpB9KOpANIB5JOIJ1IuoB0IekG0o2kB0gPkl4gvUj6gPQh6QfSj2QAyACSQSCDTzaFvbljpbdoU2B+uins2EIhu20fXDsuA+tMB50T8IdpbME63rd3kvaulrDR4PTUk3nc+YWwBMOpVxOTgYcbGSoyxhyFfDfzekYUUhRSFFIUUhRSFFIUUhRSFFIU0qNCvp8IjcwGRSBFIEUgRSBFIEUgRSBFIEUgRSA9CuSwI5Dj/pAYpBikGKQYpBikGKQYpBikGKQYpEeDnBr1TwQmRSBFIEUgRSBFIEUgRSBFIEUgRSC9/glyxh+Sf4IUgRSBFIEUgRSBFIE0RCBFIEUgvQnk/H9dz0+3jD0AAA==',
+    filter_url: '{{fl.地区}}-{{fl.排序 or "time"}}-{{fl.剧情}}-{{fl.语言}}-{{fl.字母}}---fypage---{{fl.年份}}',
+    headers: {
+        'User-Agent': 'MOBILE_UA',
+    },
+    timeout: 5000,
+    class_parse: '.nav-m-box&&li;a&&Text;a&&href;/.*\/(.*?)\.html',
+    cate_exclude: '最近|排行',
+    play_parse: true,
+    lazy: $js.toString(() => {
+        var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+        log(html)
+        var url = html.url;
+        var from = html.from;
+        if (html.encrypt == '1') {
+            url = unescape(url);
+        } else if (html.encrypt == '2') {
+            url = unescape(base64Decode(url));
+        }
+        log(url)
+        var pconfig = jsp.pdfh(request(rule.parse + url), 'body&&script,0&&Html').match(/config = {[\s\S]*?}/)[0];
+        var config = {};
+        eval(pconfig);
+        let purl = JSON.parse(request(rule.parse.replace('?url=', 'api_config.php'), {
+            headers: {
+                'Origin': HOST
+            },
+            body: 'url=' + config.url + '&time=' + config.time + '&key=' + config.key,
+            method: 'POST'
+        })).url;
+        if (/NBY|BTJSON|CL4K/.test(from)) {
+            let play = JSON.parse(request(purl, {
+                headers: {
+                    'Origin': 'https://kedays.org',
+                    'Host': 'cdn.suxun.site',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+                },
+                redirect: false,
+                withHeaders: true
+            })).location;
+            input = {parse: 0, url: play, js: ''};
+        } else {
+            let play = JSON.parse(request(purl, {
+                headers: {
+                    'Origin': 'https://kedays.org',
+                    'Host': 'cdn.suxun.site',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+                },
+                redirect: false,
+                withHeaders: true
+            })).location;
+            let video = JSON.parse(request(play, {
+                headers: {
+                    'Origin': 'https://kedays.org',
+                    'Host': 'cdn.suxun.site',
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+                },
+                redirect: false,
+                withHeaders: true
+            })).location + '#.m3u8';
+            input = {parse: 0, url: video, js: ''};
+        }
+    }),
+    double: true,
+    推荐: '.layout-box;.vlist&&li;*;*;*;*',
+    一级: '.vod-list&&ul&&li;a&&title;.lazyload&&data-original;.item-status&&Text;a&&href',
+    二级: {
+        title: 'h3&&Text;p.row&&span&&a&&Text',
+        img: 'img.lazyload&&data-original',
+        desc: 'p.row&&span:eq(-1)&&Text;p.row&&span:eq(2)&&Text;p.row&&span:eq(1)&&Text;p.row&&span:eq(4)&&Text;p.row&&span:eq(3)&&Text;',
+        content: '.more-box&&Text',
+        tabs: '.playlist-tab&&ul&&li',
+        lists: '.ewave-playlist-content:eq(#id)&&li',
+        tab_text: 'body&&Text',
+        list_text: 'body&&Text',
+        list_url: 'a&&href'
+    },
+    搜索: '*',
+}

@@ -1,1 +1,39 @@
-H4sIAFfAdWYC/4VV7U/bRhj/vr/CotIlQeSNt6FYUdVJk9aKaR8o+1KhysSXxK0TG/ucNquQgFIaRoGwFkpH2HhZgWolMFZNIRT4Z3Jn57/Yc7YDSZG2k06+e57f/e55PRckQzAsFQtJ4dlXAgz7rzP620JCCNDyx8bpXqDHlRKFqBiErDJPd4/p8bJz9ImW932t/XnN3poGdWY8PhTri/nirGYSEGYJ0RPRaC5SNJ+aQ5GCovt6y1BBHZW1J3lVMUk0XUypkmk+TBd1KYMjWZJTfaSJJSOVHfXw3iYimfptjkt6cOSJn2iGnOzu9nekqONkON7BIo1zT3o90YSlpB6PuPKEEPPNxpKMDTPhB4SPwKiJjfCdDM6TAJjw/Q/f3B3+9uHonYCLmGzFKIc1CzweiMV8qmgUgpDD3PBANI3zKlaigSuV560uGSYPbUSXw64kgSeCsZAgy6KE0H38lPBv1sBpMdIdDUa6b4faQ+OR5KUc57DPV+yzir00S0/PEJsus6k1NvPRXltBjc9b9tnv7HCvcbGFms/PaW3GOZhiz18gWl2nlTotrTQu9hBdmqPLJ3Ruo1FfQGxpp/nug73xlu68Rs70Kw5bnWOldcTWl1hlszmz26hzJJ29RM7RLJRLo7bgnJ8je6MGZcJKy2zjBDXqdXv+AxjgVI8RPb1kvxzS+X1kv7ug1X+c6gnd3ED0jzXn6NA5OgMk8oqMrb2kh2DR7KX953tfY1e37fKcU37ffDPV4b9XSsZALzLiX8Pk3z6Y/TAHkNEPcyiOjL5BmMjgCFjFh2AHyD6OAC2AB31WXZWKrcwQw8KeVJV+KsI1PkZVcgpke/Aqn7Jm8dq6xrOlA2exzHPL6ztsqYK3UBXRW/C0+TnuFiM5TYZODJuqIuOwZJGsZrSU/pWN2pRd3+eE45r2OKypCAFXtt+HKbkMQrJEpLBmKBklL6miB8xh8kUttQjrr1zC61IHP7xmD2R7/SMeRwqrYL+7NKS8HJZ4nfaGPIxP1/5UZOP/fzwGx6UbDOBGy0XBdck0Um1qHmlsphIBEYbHCHtBv8HjooTAFeqm2f95PKXlCTT8VbQBFQ7fhBFp3HTbF0rGTSrRAJTt7bSYa8xE4JGZ0OXkI1OHbhdVTPgbmNTlIG/oni73nnGLEC3vxoUnqiskqlomCLiQyFFJA09Y2CSehFMUviAwFQJFZaYMRScIfQcK4CjAOy9rKSsHHiWfTbr7H6HOtGEw7J6p5cWOXRIXJDVYiJi6qpBgV6euK/QgPtZS9YAdSj6tgTA25tnKX10t3UnvmcqjEE92KOAUsInDd0fujyQfuIAxl8WVhMTOMLb/f2DdXD+B56n5+qKHlVZYZbFRnws2aj83N3fsX2dp6a2zfcBWj9lilR3u0lqNLVzS0jGAetjJNvt7FV4i9uYi1H5BK1G3Wunk5XJLkaFgLLfb2uzxoMI1VoAOv0L4fwVWrtifdgDFe3jyXxLe691vBwAA
+var rule = {
+    类型: '听书',
+    title: '有声小说吧',
+    编码: 'gb18030',
+    // host: 'http://m.ysxs8.vip',
+    host: 'http://m.ysxs8.top',
+    url: '/downlist/fyclass_fypage.html',
+    searchUrl: '/search.asp?page=fypage&searchword=**&searchtype=-1',
+    searchable: 2,
+    quickSearch: 0,
+    headers: {
+        'User-Agent': 'MOBILE_UA'
+    },
+    timeout: 5000,
+    // homeUrl:'/fenlei/',
+    // class_parse: '.pd-class:eq(0) dd;a&&Text;a&&href;.*/(.*?).html',
+    class_name: '网络玄幻&恐怖悬疑&传统武侠&都市言情&官场刑侦&历史军事&探险盗墓&职场商战&明朝那些事儿&评书下载&相声戏曲&人物传记&广播剧&百家讲坛&外语读物&有声文学&儿童读物&管理营销',
+    class_url: 'r52&r17&r12&r13&r14&r15&r45&r81&r36&r3&r7&r16&r18&r32&r35&r41&r4&r6',
+    play_parse: true,
+    lazy: '',
+    limit: 6,
+    // double:true,
+    推荐: '.list-ul .list-li;.list-name&&Text;*;.module-slide-author&&Text;*',
+    一级: '.book-ol&&li;h4&&Text;img&&data-original;.book-meta&&Text;a&&href',
+    二级: {
+        // title:'h2&&Text;.book-cell .book-rand-a:eq(2)&&Text',
+        title: 'h1&&Text;.book-cell .book-rand-a:eq(0)&&a&&Text',
+        img: '.book img&&src',
+        // desc:';;;;.book-des p&&Text',
+        desc: ';;;.book-rand-a:eq(2)&&Text;.book-des p&&Text',
+        content: '.book-des--p&&Text',
+        tabs: '.playlist-top&&h2',
+        // lists:'js:pd=jsp.pd;let url=pd(html,".bookbutton&&a&&href");log(url);html=request(url);let v=pd(html,".booksite&&script&&Html");var document={};var VideoListJson;VideoListJson=eval(v.split("VideoListJson=")[1].split(",urlinfo")[0]);log(typeof VideoListJson);let list1=VideoListJson[0][1];LISTS=[list1];log(LISTS);',
+        // 有声小说有防盗链,我服了(上面的列表数据正常拿到了,没法播放)
+        //  lists:'#playlist:eq(#id)&&ul&&li',
+        lists: '#playlist ul li',
+    },
+    搜索: '*',
+}

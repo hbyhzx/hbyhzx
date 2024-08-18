@@ -1,1 +1,10 @@
-H4sIAFfAdWYC//NPykpNLtFLLC7OTM/TyC1NSszTy60oKMrXe7Kr5/mu5ToK1VwKQFCSmBRfklpRYqWgXlyQmKemFgLkqOtw1Wpac5UlFikUleakKthCFT9bsfDZ3P1ApWCTgKrAJmSW5KQCxZ73rH6xvO351B6oeEZ+McjUjJKSAit9/fLycr3c4qySMr3k/FyoiuQcoPPiCxKLikH69fISy5ISi3QzS1JzixVyMq3SSzQMNa1ygKSppnUixGUgOqMoNc1aXyMmJkVbUy+jJDcH5hCgV1IrknNKU0DGPeub9HRXP8gnAOeJS8cLAQAA
+Object.assign(muban.mxpro.二级, {
+    tab_text: 'span&&Text',
+});
+var rule = {
+    模板: 'mxpro',
+    title: '猫视界',
+    host: 'http://www.msjtv.com',
+    class_parse: '.navbar-items li:gt(1):lt(15);a&&Text;a&&href;/(\\d+).html',
+    tab_exclude: '排序',
+}

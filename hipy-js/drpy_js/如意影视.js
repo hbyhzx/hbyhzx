@@ -1,1 +1,38 @@
-dmFyIHJ1bGUgPSB7CiAgICB0aXRsZTogJ+WmguaEj+W9seinhicsCiAgICBob3N0OiAnaHR0cDovL3I1eS5uZXQvJywKICAgIHVybDogJy92b2QvdHlwZS9pZC9meWNsYXNzL3BhZ2UvZnlwYWdlLycsCiAgICBzZWFyY2hVcmw6ICcvaW5kZXgucGhwL3ZvZC9zZWFyY2gvcGFnZS9meXBhZ2Uvd2QvKiovJywKICAgIHNlYXJjaGFibGU6IDIsCiAgICBxdWlja1NlYXJjaDogMCwKICAgIGZpbHRlcmFibGU6IDEsCiAgICBmaWx0ZXI6ICcnLAogICAgZmlsdGVyX3VybDogJycsCiAgICBmaWx0ZXJfZGVmOiB7fSwKICAgIGhlYWRlcnM6IHsKICAgICAgICAnVXNlci1BZ2VudCc6ICdNT0JJTEVfVUEnLAogICAgfSwKICAgIHRpbWVvdXQ6IDUwMDAsCiAgICBjbGFzc19wYXJzZTogJy5ld2F2ZS1zd2lwZXItbmF2JiZhO2EmJlRleHQ7YSYmaHJlZjtpZC8oXFxkKykvJywKICAgIGNhdGVfZXhjbHVkZTogJycsCiAgICBwbGF5X3BhcnNlOiB0cnVlLAogICAgbGF6eTogJGpzLnRvU3RyaW5nKCgpID0+IHsKICAgICAgICBpbnB1dCA9IHtwYXJzZTogMSwgdXJsOiBpbnB1dCwganM6ICcnfTsKICAgIH0pLAogICAgZG91YmxlOiB0cnVlLAogICAg5o6o6I2QOiAnLnZvZC1saXN0LXR2O3VsLnJvdyYmbGk7KjsqOyo7KicsCiAgICDkuIDnuqc6ICcudm9kLWxpc3QmJnVsJiZsaTthJiZ0aXRsZTsubGF6eWxvYWQmJmRhdGEtb3JpZ2luYWw7Lml0ZW0tc3RhdHVzJiZUZXh0O2EmJmhyZWYnLAogICAg5LqM57qnOiB7CiAgICAgICAgdGl0bGU6ICdoMyYmVGV4dDsuaW5mbyYmcCYmc3BhbiYmVGV4dCcsCiAgICAgICAgaW1nOiAnLmxhenlsb2FkJiZkYXRhLW9yaWdpbmFsJywKICAgICAgICBkZXNjOiAnLmluZm8mJnAmJnNwYW46ZXEoLTEpJiZUZXh0Oy5pbmZvJiZwJiZzcGFuOmVxKDIpJiZUZXh0Oy5pbmZvJiZwJiZzcGFuOmVxKDEpJiZUZXh0Oy5pbmZvJiZwJiZzcGFuOmVxKDQpJiZUZXh0Oy5pbmZvJiZwJiZzcGFuOmVxKDMpJiZUZXh0JywKICAgICAgICBjb250ZW50OiAnLnRleHQmJlRleHQnLAogICAgICAgIHRhYnM6ICcucGxheWxpc3QtdGFiJiZsaScsCiAgICAgICAgbGlzdHM6ICcuZXdhdmUtcGxheWxpc3QtY29udGVudDplcSgjaWQpJiZsaScsCiAgICAgICAgdGFiX3RleHQ6ICdib2R5JiZUZXh0JywKICAgICAgICBsaXN0X3RleHQ6ICdib2R5JiZUZXh0JywKICAgICAgICBsaXN0X3VybDogJ2EmJmhyZWYnLAogICAgICAgIGxpc3RfdXJsX3ByZWZpeDogJycsCiAgICB9LAogICAg5pCc57SiOiAndWwucm93JiZsaTsqOyo7KjsqJywKfQ==
+var rule = {
+    title: '如意影视',
+    host: 'http://r5y.net/',
+    url: '/vod/type/id/fyclass/page/fypage/',
+    searchUrl: '/index.php/vod/search/page/fypage/wd/**/',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 1,
+    filter: '',
+    filter_url: '',
+    filter_def: {},
+    headers: {
+        'User-Agent': 'MOBILE_UA',
+    },
+    timeout: 5000,
+    class_parse: '.ewave-swiper-nav&&a;a&&Text;a&&href;id/(\\d+)/',
+    cate_exclude: '',
+    play_parse: true,
+    lazy: $js.toString(() => {
+        input = {parse: 1, url: input, js: ''};
+    }),
+    double: true,
+    推荐: '.vod-list-tv;ul.row&&li;*;*;*;*',
+    一级: '.vod-list&&ul&&li;a&&title;.lazyload&&data-original;.item-status&&Text;a&&href',
+    二级: {
+        title: 'h3&&Text;.info&&p&&span&&Text',
+        img: '.lazyload&&data-original',
+        desc: '.info&&p&&span:eq(-1)&&Text;.info&&p&&span:eq(2)&&Text;.info&&p&&span:eq(1)&&Text;.info&&p&&span:eq(4)&&Text;.info&&p&&span:eq(3)&&Text',
+        content: '.text&&Text',
+        tabs: '.playlist-tab&&li',
+        lists: '.ewave-playlist-content:eq(#id)&&li',
+        tab_text: 'body&&Text',
+        list_text: 'body&&Text',
+        list_url: 'a&&href',
+        list_url_prefix: '',
+    },
+    搜索: 'ul.row&&li;*;*;*;*',
+}

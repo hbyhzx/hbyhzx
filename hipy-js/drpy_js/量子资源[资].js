@@ -1,1 +1,11 @@
-Ly8gaHR0cHM6Ly9jai5semlhcGkuY29tL2FwaS5waHAvcHJvdmlkZS92b2QvP2FjPWxpc3QKCnZhciBydWxlID0gewogICAg5qih5p2/OiAn6YeH6ZuGMScsCiAgICB0aXRsZTogJ+mHj+WtkOi1hOa6kFvotYRdJywKICAgIGhvc3Q6ICdodHRwczovL2NqLmx6aWFwaS5jb20nLAogICAgLy8gaG9tZVRpZDogJzEzJywKICAgIGhvbWVUaWQ6ICcnLAogICAgY2F0ZV9leGNsdWRlOiAn55S15b2x54mHfOi/nue7reWJp3znu7zoibrniYd85Yqo5ryr54mHfOeUteW9seino+ivtHzkvZPogrJ85ryU5ZGYfOaWsOmXu+i1hOiurycsCiAgICBwYXJzZV91cmw6ICcnLAp9
+// https://cj.lziapi.com/api.php/provide/vod/?ac=list
+
+var rule = {
+    模板: '采集1',
+    title: '量子资源[资]',
+    host: 'https://cj.lziapi.com',
+    // homeTid: '13',
+    homeTid: '',
+    cate_exclude: '电影片|连续剧|综艺片|动漫片|电影解说|体育|演员|新闻资讯',
+    parse_url: '',
+}

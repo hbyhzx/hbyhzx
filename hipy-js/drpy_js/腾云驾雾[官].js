@@ -1,1 +1,162 @@
-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
+var rule = {
+    title: '腾云驾雾[官]',
+    host: 'https://v.%71%71.com',
+    // homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=choice&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
+    homeUrl: '/x/bu/pagesheet/list?_all=1&append=1&channel=cartoon&listpage=1&offset=0&pagesize=21&iarea=-1&sort=18',
+    detailUrl: 'https://node.video.%71%71.com/x/api/float_vinfo2?cid=fyid',
+    searchUrl: '/x/search/?q=**&stag=fypage',
+    searchable: 2,
+    filterable: 1,
+    multi: 1,
+    // url:'/channel/fyclass?listpage=fypage&channel=fyclass&sort=18&_all=1',
+    url: '/x/bu/pagesheet/list?_all=1&append=1&channel=fyclass&listpage=1&offset=((fypage-1)*21)&pagesize=21&iarea=-1',
+    // filter_url: 'sort={{fl.sort or 18}}&year={{fl.year}}&pay={{fl.pay}}',
+    // filter_url: 'sort={{fl.sort or 75}}&year={{fl.year}}&pay={{fl.pay}}',
+    filter_url: 'sort={{fl.sort or 75}}&iyear={{fl.iyear}}&year={{fl.year}}&itype={{fl.type}}&ifeature={{fl.feature}}&iarea={{fl.area}}&itrailer={{fl.itrailer}}&gender={{fl.sex}}',
+    // filter: 'H4sIAAAAAAAAA+2UzUrDQBCA32XOEZLUJrGvIj0saaDBNisxBkIJCG3Fi4oepIg3EQoieqiH+vM23Zq+hRuaZLZ4ce9z2/lmd2d2+NgR+H0e+gF0DkdwFGTQgRMeJ2BAxIaSwvrqVnxcyzhlg9PttqjED2c/45cSy8DyIDcavr57q/lBw8XTd/E6qbnT8M3zTFyc72RtC/Jumd+2c8wy7KZ4nxSL5Z9uxHS+Gc+r83sWVp1eVttl4Dluk1h93YubWZVwduplAYuxoFguVp+P/y5om/Z+/YxyqfAW8pbKbeS2yi3kO/ebyE2Fy1nXXBm7DDzknspd5K7KHeSOytvI2+XAugYkKWlD2mhrM+RpSB8OmaNvTsriMEgycofc0XbHZ3HCeUTukDv67vTDQY/MIXO0zelxn5M4JI6mOPkvgswSEpgPAAA=',
+    filter: 'H4sIAAAAAAAAA+1Y3U8aWRT/X+ZZEwYEtI9207Rp0r40+9CNDxM7G8laaZCamsYEinyoDYp1sa1I/aJSK4ita3Eo9J+Ze2fmv9g7yOWc22u3xJX0RZ7gd+ee7/M7h3mujE+EQ+O6cuOP58pf+qxyQ5kOR6LKgDKlPWaoQrOrxFhmv2e0yafnj025cCFmJSouzH4E/crcQBen+VoHH/Z1cVJq2kfzHFeVuTH35FxhaFbXIqCRnJ2YjV1JI0mWnUS5I2FQ7Ur2erxDHbT9FeE+wH0Y9wLuxbgKuCDfA7gH4epIF2dfET4M+DDGg4AHMR4APIBxP+B+N2JjA0p0pi+ZCo5cnCnXHpSpP3Ut+jSig07ruEGKSz3nysoc00SSywaVy3v2LochI/TFoZXPdWBIoJNokvqLDgz5JtVTYnA/wU2SL5CF/Q4M0TW/bpFSmnsPKivvzdYWL1MQktqg69xACBXdTNi1Je4OlIaz+YHkmhxH7mdrpFrkOPJoc5W+LnEcXLJeZsFIFXyy9nPkrIFSxPGPRboY43gQ6Z1Hzw9fN98lm+9xeCb0S5kyOvvkfzTf4pHVPJD7ZvGYfFuXmk/oG9XDPqguExV7O4bOAurFTdu+B9kR2989+1FNsyMVEUF8hcby+MyDzC9ba8I9FOLMa9NYwPogwwJdtO9BVTDHRTtRpbKG/M5OkCmwR/sMcVw2RZY/YZlwZsfi1kIa34NysEvfIJsIrtZI82/xltsfqFiuG7vnxp7RIiE9OtuX1naDdM23l0rLuBaJhsNTv5JxtYiuoWwVauSl0XO2SCrJbkjrDl0v0cKhvO4c7lutrNTpJHlqNjj5DV3hOMBLAeJozMNQYCK1IetSq86bD5LRjHlpng8VlIGVonWYkwMSX2KjQVrGnMoamPKDLQfVqDh5gjjcpF6Xtyi6tU02uhMAyS+8Mw0DbUv8+WzZWknJW5rI7CiSjWWSrP93Pt0hd00OlyOHidDko/78GUJbAqaG7+brtP4M6Yvtk8zH3pmh9JlUeNugnlz7ArC3T0Tkw51xERGJFfqTAnVa87T6T8+WeAZ95FNccnxoMAAwWBIcHAEY7FY9DDUbJbO+KK+zybJg1TmjtCvmUXg83J+CEWk5FI1ooUkdxyltkFdxmj/rOU6jozelIJGNpru1FmpAQ+D37dH7PE4qsvPe7btyftuE5ezknPgriXTvPPidy/H7ELlmd6yTHeEO0wPqH/52C2DoHzvZsqtHdvqAZE5lBiYrGbNZoAWDFnmPBS6uQv/VzT1mjDV/KsWPjV5n9113mwZ8r2V+fSuVIJsQNJ+WjRZmAX5/YBpLUiLYrIVJBvxon+yw2SEPGpYDmLX4dUDzgG5npEyKbwPQnrGepDAP2/09NvcvaIIuCAgUAAA=',
+    headers: {
+        'User-Agent': 'PC_UA'
+    },
+    timeout: 5000,
+    // class_parse:'.site_channel a;a&&Text;a&&href;channel/(.*)',
+    cate_exclude: '会员|游戏|全部',
+    // class_name: '精选&电视剧&电影&综艺&动漫&少儿&纪录片',
+    // class_url: 'choice&tv&movie&variety&cartoon&child&doco',
+    class_name: '精选&电影&电视剧&综艺&动漫&少儿&纪录片',
+    class_url: 'choice&movie&tv&variety&cartoon&child&doco',
+    limit: 20,
+    // play_parse:true,
+    // 手动调用解析请求json的url,此lazy不方便
+    lazy: 'js:input="https://cache.json.icu/home/api?type=ys&uid=292796&key=fnoryABDEFJNPQV269&url="+input.split("?")[0];log(input);let html=JSON.parse(request(input));log(html);input=html.url||input',
+    推荐: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
+    一级: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
+    二级: $js.toString(() => {
+        VOD = {};
+        let d = [];
+        let video_list = [];
+        let video_lists = [];
+        let list = [];
+        let QZOutputJson;
+        let html = fetch(input, fetch_params);
+        let sourceId = /get_playsource/.test(input) ? input.match(/id=(\d*?)&/)[1] : input.split("cid=")[1];
+        let cid = sourceId;
+        let detailUrl = "https://v.%71%71.com/detail/m/" + cid + ".html";
+        log("详情页:" + detailUrl);
+        pdfh = jsp.pdfh;
+        pd = jsp.pd;
+        try {
+            let json = JSON.parse(html);
+            VOD = {
+                vod_url: input,
+                vod_name: json.c.title,
+                type_name: json.typ.join(","),
+                vod_actor: json.nam.join(","),
+                vod_year: json.c.year,
+                vod_content: json.c.description,
+                vod_remarks: json.rec,
+                vod_pic: urljoin2(input, json.c.pic)
+            }
+        } catch (e) {
+            log("解析片名海报等基础信息发生错误:" + e.message)
+        }
+        if (/get_playsource/.test(input)) {
+            eval(html);
+            let indexList = QZOutputJson.PlaylistItem.indexList;
+            indexList.forEach(function (it) {
+                let dataUrl = "https://s.video.qq.com/get_playsource?id=" + sourceId + "&plat=2&type=4&data_type=3&range=" + it + "&video_type=10&plname=qq&otype=json";
+                eval(fetch(dataUrl, fetch_params));
+                let vdata = QZOutputJson.PlaylistItem.videoPlayList;
+                vdata.forEach(function (item) {
+                    d.push({
+                        title: item.title,
+                        pic_url: item.pic,
+                        desc: item.episode_number + "\t\t\t播放量：" + item.thirdLine,
+                        url: item.playUrl
+                    })
+                });
+                video_lists = video_lists.concat(vdata)
+            })
+        } else {
+            let json = JSON.parse(html);
+            video_lists = json.c.video_ids;
+            let url = "https://v.qq.com/x/cover/" + sourceId + ".html";
+            if (video_lists.length === 1) {
+                let vid = video_lists[0];
+                url = "https://v.qq.com/x/cover/" + cid + "/" + vid + ".html";
+                d.push({
+                    title: "在线播放",
+                    url: url
+                })
+            } else if (video_lists.length > 1) {
+                for (let i = 0; i < video_lists.length; i += 30) {
+                    video_list.push(video_lists.slice(i, i + 30))
+                }
+                video_list.forEach(function (it, idex) {
+                    let o_url = "https://union.video.qq.com/fcgi-bin/data?otype=json&tid=1804&appid=20001238&appkey=6c03bbe9658448a4&union_platform=1&idlist=" + it.join(",");
+                    let o_html = fetch(o_url, fetch_params);
+                    eval(o_html);
+                    QZOutputJson.results.forEach(function (it1) {
+                        it1 = it1.fields;
+                        let url = "https://v.qq.com/x/cover/" + cid + "/" + it1.vid + ".html";
+                        d.push({
+                            title: it1.title,
+                            pic_url: it1.pic160x90.replace("/160", ""),
+                            desc: it1.video_checkup_time,
+                            url: url,
+                            type: it1.category_map && it1.category_map.length > 1 ? it1.category_map[1] : ""
+                        })
+                    })
+                })
+            }
+        }
+        let yg = d.filter(function (it) {
+            return it.type && it.type !== "正片"
+        });
+        let zp = d.filter(function (it) {
+            return !(it.type && it.type !== "正片")
+        });
+        VOD.vod_play_from = yg.length < 1 ? "qq" : "qq$$$qq 预告及花絮";
+        VOD.vod_play_url = yg.length < 1 ? d.map(function (it) {
+            return it.title + "$" + it.url
+        }).join("#") : [zp, yg].map(function (it) {
+            return it.map(function (its) {
+                return its.title + "$" + its.url
+            }).join("#")
+        }).join("$$$");
+    }),
+    搜索: $js.toString(() => {
+        let d = [];
+        pdfa = jsp.pdfa;
+        pdfh = jsp.pdfh;
+        pd = jsp.pd;
+        let html = request(input);
+        let baseList = pdfa(html, "body&&.result_item_v");
+        log(baseList.length);
+        baseList.forEach(function (it) {
+            let longText = pdfh(it, ".result_title&&a&&Text");
+            let shortText = pdfh(it, ".type&&Text");
+            let fromTag = pdfh(it, ".result_source&&Text");
+            let score = pdfh(it, ".figure_info&&Text");
+            let content = pdfh(it, ".desc_text&&Text");
+            // let url = pdfh(it, ".result_title&&a&&href");
+            let url = pdfh(it, "div&&r-data");
+            // log(longText);
+            // log(shortText);
+            // log('url:'+url);
+            let img = pd(it, ".figure_pic&&src");
+            url = "https://node.video.qq.com/x/api/float_vinfo2?cid=" + url.match(/.*\/(.*?)\.html/)[1];
+            log(shortText + "|" + url);
+            if (fromTag.match(/腾讯/)) {
+                d.push({
+                    title: longText.split(shortText)[0],
+                    img: img,
+                    url: url,
+                    content: content,
+                    desc: shortText + " " + score
+                })
+            }
+        });
+        setResult(d);
+    }),
+}

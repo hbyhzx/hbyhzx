@@ -1,1 +1,31 @@
-dmFyIHJ1bGUgPSB7CiAgICB0aXRsZTogJ+eLl+eLl+ebmFvmkJxdJywKICAgIGhvc3Q6ICdodHRwczovL2dvZ29wYW5zby5jb206MzY0MicsCiAgICBzZWFyY2hVcmw6ICcvc2VhcmNoP2tleXdvcmQ9Kiomc2VhcmNodHlwZT1tb3ZpZXMmcGFnZT0xJmxpbWl0PTEwJywKICAgIHNlYXJjaGFibGU6IDIsCiAgICBxdWlja1NlYXJjaDogMCwKICAgIGhlYWRlcnM6IHsKICAgICAgICAnVXNlci1BZ2VudCc6ICdQQ19VQScsCiAgICB9LAogICAgdGltZW91dDogNTAwMCwKICAgIHBsYXlfcGFyc2U6IHRydWUsCiAgICBsYXp5OiAkanMudG9TdHJpbmcoKCkgPT4gewogICAgICAgIGxldCB1cmwgPSBpbnB1dC5zdGFydHNXaXRoKCdwdXNoOi8vJykgPyBpbnB1dCA6ICdwdXNoOi8vJyArIGlucHV0OwogICAgICAgIGlucHV0ID0ge3BhcnNlOiAwLCB1cmw6IHVybH07CiAgICB9KSwKICAgIC8vIOS4gOe6pzogJycsCiAgICDkuoznuqc6ICcqJywKICAgIOaQnOe0ojogJGpzLnRvU3RyaW5nKCgpID0+IHsKICAgICAgICB2YXIgZCA9IFtdOwogICAgICAgIHZhciBsaXN0ID0gSlNPTi5wYXJzZShyZXF1ZXN0KE1ZX1VSTCkpLmRhdGE7CiAgICAgICAgLy9sb2cobGlzdCkKICAgICAgICBsaXN0Lm1hcChpdCA9PiB7CiAgICAgICAgICAgIGQucHVzaCh7CiAgICAgICAgICAgICAgICB0aXRsZTogaXQubmFtZSwKICAgICAgICAgICAgICAgIGRlc2M6IGl0LmlucHV0ZGF5ICsgaXQudHlwZSwKICAgICAgICAgICAgICAgIHVybDogaXQuZG93bnVybAogICAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgICBzZXRSZXN1bHQoZCk7CiAgICB9KSwKfQ==
+var rule = {
+    title: '狗狗盘[搜]',
+    host: 'https://gogopanso.com:3642',
+    searchUrl: '/search?keyword=**&searchtype=movies&page=1&limit=10',
+    searchable: 2,
+    quickSearch: 0,
+    headers: {
+        'User-Agent': 'PC_UA',
+    },
+    timeout: 5000,
+    play_parse: true,
+    lazy: $js.toString(() => {
+        let url = input.startsWith('push://') ? input : 'push://' + input;
+        input = {parse: 0, url: url};
+    }),
+    // 一级: '',
+    二级: '*',
+    搜索: $js.toString(() => {
+        var d = [];
+        var list = JSON.parse(request(MY_URL)).data;
+        //log(list)
+        list.map(it => {
+            d.push({
+                title: it.name,
+                desc: it.inputday + it.type,
+                url: it.downurl
+            });
+        });
+        setResult(d);
+    }),
+}

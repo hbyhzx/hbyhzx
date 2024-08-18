@@ -1,1 +1,55 @@
-dmFyIHJ1bGUgPSB7CiAgICDnsbvlnos6ICflsI/or7QnLC8v5b2x6KeGfOWQrOS5pnzmvKvnlLt85bCP6K+0CiAgICB0aXRsZTogJ+aIkeeci+S5puaWi1vkuaZdJywKICAgIGhvc3Q6ICdodHRwczovL3d3dy41Y2NjLm5ldC8nLAogICAgdXJsOiAnL2NsYXNzL2Z5Y2xhc3NfZnlwYWdlLmh0bWwnLAogICAgc2VhcmNoVXJsOiAnL3NlYXJjaC8qKicsCiAgICBzZWFyY2hhYmxlOiAyLAogICAgcXVpY2tTZWFyY2g6IDAsCiAgICBmaWx0ZXJhYmxlOiAxLAogICAgZmlsdGVyOiAnJywKICAgIGZpbHRlcl91cmw6ICcnLAogICAgZmlsdGVyX2RlZjoge30sCiAgICBoZWFkZXJzOiB7CiAgICAgICAgJ1VzZXItQWdlbnQnOiAnTU9CSUxFX1VBJywKICAgIH0sCiAgICB0aW1lb3V0OiA1MDAwLAogICAgY2xhc3NfcGFyc2U6ICcubmF2LW1lbnUtaXRlbXMmJmxpO2EmJlRleHQ7YSYmaHJlZjtjbGFzcy8oLio/KVwuaHRtbCcsCiAgICBjYXRlX2V4Y2x1ZGU6ICcnLAogICAgcGxheV9wYXJzZTogdHJ1ZSwKICAgIGxhenk6ICRqcy50b1N0cmluZygoKSA9PiB7CiAgICAgICAgbGV0IGh0bWwgPSByZXF1ZXN0KGlucHV0KTsKICAgICAgICBsZXQgdGl0bGUgPSBwZGZoKGh0bWwsICdoMSYmVGV4dCcpLnNwbGl0KCcoJylbMF0udHJpbSgpOwogICAgICAgIC8vIGxldCBjb250ZW50ID0gcGRmaChodG1sLCAnI2NoYXB0ZXJjb250ZW50JiZIdG1sJykucmVwbGFjZSgvPGJyPi9nLCAnXG4nKS5yZXBsYWNlKC9cblxuL2csICdcbicpOwogICAgICAgIGxldCBjb250ZW50ID0gcGRmaChodG1sLCAnI2NoYXB0ZXJjb250ZW50JiZIdG1sJykucmVwbGFjZSgvXG4vZywgIiIpLnNwbGl0KCI8YnI+IikuZmlsdGVyKHYgPT4gdikuc2xpY2UoMCkuam9pbigiXG4iKTsKCiAgICAgICAgbGV0IG5leHRVcmwgPSBwZChodG1sLCAnLmJvdHRlbTEmJmE6Y29udGFpbnMo5LiL5LiA6aG1KSYmaHJlZicsIE1ZX1VSTCk7CiAgICAgICAgLy9sb2cobmV4dFVybCk7CiAgICAgICAgaWYgKG5leHRVcmwgJiYgbmV4dFVybCAhPSBNWV9VUkwpIHsKICAgICAgICAgICAgbGV0IG5leHRIdG1sID0gcmVxdWVzdChuZXh0VXJsKTsKICAgICAgICAgICAgbGV0IG5leHRDb250ZW50ID0gcGRmaChuZXh0SHRtbCwgJyNjaGFwdGVyY29udGVudCYmSHRtbCcpLnJlcGxhY2UoL1xuL2csICIiKS5zcGxpdCgiPGJyPiIpLmZpbHRlcih2ID0+IHYpLnNsaWNlKDApLmpvaW4oIlxuIik7CiAgICAgICAgICAgIGNvbnRlbnQgKz0gbmV4dENvbnRlbnQ7CiAgICAgICAgfQogICAgICAgIGxldCByZXQgPSBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgIHRpdGxlLAogICAgICAgICAgICBjb250ZW50CiAgICAgICAgfSk7CiAgICAgICAgaW5wdXQgPSB7cGFyc2U6IDAsIHVybDogJ25vdmVsOi8vJyArIHJldCwganM6ICcnfTsKICAgIH0pLAogICAgZG91YmxlOiB0cnVlLAogICAg5o6o6I2QOiAnLmNvbnRlbnQmJmRpdi5tb2R1bGU7ZGl2Lm1vZHVsZS1pdGVtOyo7KjsqOyo7KicsCiAgICDkuIDnuqc6ICcubW9kdWxlLWxpc3Q6ZXEoLTEpJiZkaXYubW9kdWxlLWl0ZW07YSYmdGl0bGU7aW1nJiZkYXRhLW9yaWdpbmFsOy5tb2R1bGUtaXRlbS1jYXB0aW9uJiZUZXh0O2EmJmhyZWY7LmJvb2stdGV4dCYmVGV4dCcsCiAgICDkuoznuqc6IHsKICAgICAgICB0aXRsZTogJ2gxJiZUZXh0Oy5ib29rLXRhZy1pY29uJiZUZXh0JywKICAgICAgICBpbWc6ICdpbWcubGF6eWxvYWQmJnNyYycsCiAgICAgICAgZGVzYzogJy5ib29rLWluZm8taXRlbSYmVGV4dCcsCiAgICAgICAgY29udGVudDogJy52b2RfY29udGVudCYmVGV4dCcsCiAgICAgICAgdGFiczogJ2gxJywKICAgICAgICBsaXN0czogJyNjaGFwdGVybGlzdCYmYScsCiAgICAgICAgdGFiX3RleHQ6ICdib2R5JiZUZXh0JywKICAgICAgICBsaXN0X3RleHQ6ICdib2R5JiZUZXh0JywKICAgICAgICBsaXN0X3VybDogJ2EmJmhyZWYnLAogICAgICAgIGxpc3RfdXJsX3ByZWZpeDogJycsCiAgICB9LAogICAg5pCc57SiOiAnLm1vZHVsZS1saXN0JiZkaXYubW9kdWxlLXNlYXJjaC1pdGVtO2gzJiZUZXh0Oyo7LmJvb2staW5mby1hY3RvciYmYSYmVGV4dDsqOyonLAp9
+var rule = {
+    类型: '小说',//影视|听书|漫画|小说
+    title: '我看书斋[书]',
+    host: 'https://www.5ccc.net/',
+    url: '/class/fyclass_fypage.html',
+    searchUrl: '/search/**',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 1,
+    filter: '',
+    filter_url: '',
+    filter_def: {},
+    headers: {
+        'User-Agent': 'MOBILE_UA',
+    },
+    timeout: 5000,
+    class_parse: '.nav-menu-items&&li;a&&Text;a&&href;class/(.*?)\.html',
+    cate_exclude: '',
+    play_parse: true,
+    lazy: $js.toString(() => {
+        let html = request(input);
+        let title = pdfh(html, 'h1&&Text').split('(')[0].trim();
+        // let content = pdfh(html, '#chaptercontent&&Html').replace(/<br>/g, '\n').replace(/\n\n/g, '\n');
+        let content = pdfh(html, '#chaptercontent&&Html').replace(/\n/g, "").split("<br>").filter(v => v).slice(0).join("\n");
+
+        let nextUrl = pd(html, '.bottem1&&a:contains(下一页)&&href', MY_URL);
+        //log(nextUrl);
+        if (nextUrl && nextUrl != MY_URL) {
+            let nextHtml = request(nextUrl);
+            let nextContent = pdfh(nextHtml, '#chaptercontent&&Html').replace(/\n/g, "").split("<br>").filter(v => v).slice(0).join("\n");
+            content += nextContent;
+        }
+        let ret = JSON.stringify({
+            title,
+            content
+        });
+        input = {parse: 0, url: 'novel://' + ret, js: ''};
+    }),
+    double: true,
+    推荐: '.content&&div.module;div.module-item;*;*;*;*;*',
+    一级: '.module-list:eq(-1)&&div.module-item;a&&title;img&&data-original;.module-item-caption&&Text;a&&href;.book-text&&Text',
+    二级: {
+        title: 'h1&&Text;.book-tag-icon&&Text',
+        img: 'img.lazyload&&src',
+        desc: '.book-info-item&&Text',
+        content: '.vod_content&&Text',
+        tabs: 'h1',
+        lists: '#chapterlist&&a',
+        tab_text: 'body&&Text',
+        list_text: 'body&&Text',
+        list_url: 'a&&href',
+        list_url_prefix: '',
+    },
+    搜索: '.module-list&&div.module-search-item;h3&&Text;*;.book-info-actor&&a&&Text;*;*',
+}

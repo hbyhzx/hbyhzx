@@ -1,1 +1,73 @@
-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
+var rule = {
+    类型: '听书',
+    title: '播客[听]',
+    host: 'https://getpodcast.xyz',
+    url: '/fyclass',
+    searchUrl: '',
+    searchable: 0,
+    quickSearch: 0,
+    headers: {
+        'User-Agent': 'PC_UA'
+    },
+    timeout: 5000,
+    class_name: '播客&人文&NEWS热点&影视与读书&教育&历史&音乐&情感&有声书',
+    class_url: '0&1&2&3&4&5&6&7&8',
+    cate_exclude: '',
+    play_parse: true,
+    lazy: `js:
+		input = {jx:0, url:input, parse:0}
+	`,
+    limit: 6,
+    推荐: `js:
+		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+		var d = [];
+		var html = request(HOST);
+		var list = pdfa(html, 'body&&.pic_list:eq(0)&&li');
+		list.forEach(it => {
+			d.push({
+				title: pdfh(it, '.title&&Text'),
+				pic_url: pdfh(it, 'img&&src'),
+				url: pd(it, 'a&&href') + '|' + pdfh(it, '.title&&Text') + '|' + pdfh(it, 'img&&src')
+			});
+		})
+		setResult(d);
+	`,
+    一级: `js:
+		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+		var d = [];
+		var html = request(HOST);
+		var list = pdfa(html, 'body&&.pic_list:eq(list_idx)&&li'.replace("list_idx", MY_CATE));
+		list.forEach(it => {
+			d.push({
+				title: pdfh(it, '.title&&Text'),
+				pic_url: pdfh(it, 'img&&src'),
+				url: pd(it, 'a&&href') + '|' + pdfh(it, '.title&&Text') + '|' + pdfh(it, 'img&&src')
+			});
+		})
+		setResult(d);
+	`,
+    二级: `js:
+        pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+		let purl = input.split('|')[0];
+		let title = input.split('|')[1];
+		let pic = input.split('|')[2];
+		var html = request(purl);
+		let d = [];
+		VOD = {};
+		VOD.vod_name = title;
+		VOD.vod_pic = pic;
+		if (typeof play_url === 'undefined') {
+            var play_url = ''
+        }
+        let episodes = pdfa(html, 'body&&item');
+		log('episodes =========>'+episodes);
+		let vod_play_url = episodes.map(function(it) {
+			let ititle = it.match(/<title>(.*?)<\\/title>/)[1].replace(/&lt;!\\[CDATA\\[|\\]\\]&gt;||<!\\[CDATA\\[|\\]\\]>/g, '');
+			let iurl = pdfh(it, 'enclosure&&url');
+			return ititle + '$' + iurl
+        }).join('#')
+        VOD.vod_play_from = '道长在线';
+        VOD.vod_play_url = vod_play_url
+	`,
+    搜索: '',
+}

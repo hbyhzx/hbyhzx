@@ -1,1 +1,45 @@
-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
+// 发布页 https://www.nmdvd.com/
+var rule = {
+    title: '农民影视[优]',
+    tab_rename: {'默认': '线路①', '播放': '线路①', '滴滴': '线路①'}, //host:'https://www.nmddd.com',
+    host: 'https://www.nmdvd.com/',
+    hostJs: `print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});
+	let src = jsp.pdfh(html,"body&&a:eq(1)&&href")||jsp.pdfh(html,"body&&a:eq(1)&&Text");
+	if(!src.startsWith('http')){src='https://'+src};print("抓到主页:"+src);HOST=src`,
+    url: '/vod-list-id-fyfilter.html', // /vod-list-id-2-pg-1-order--by-time-class-0-year-2023-letter--area--lang-.html
+    filterable: 1,//是否启用分类筛选,
+    filter_url: '{{fl.cateId}}-pg-fypage-order--by-{{fl.by or "time"}}-class-0-year-{{fl.year}}-letter-{{fl.letter}}-area-{{fl.area}}-lang-',
+    filter: 'H4sIAAAAAAAAA+2Z304TQRyF32WvuZjZtjNT3sBnMFxUbCJRMQE0IYRELQgtCmqkFSz+iZaWiFICIbIIfZnulr6FW7o756CJMeFKMnf9ndOdnW9osl+WOU96ozfnvLvFWW/UGy/MFG/c9ka8ycL9Yjz39k/C9yvx/Khw72Hx4ouTcRwutvql1iCOB+nNjyRxpdU9rffKS0mTQ1Oth+UmGmWb3vJ+VFpEo9E0X4XHJ2iMbaInL6PHVTR53KfcvLSaFLho+W03KFOFfUelSvR0kypsL2wsXdqEjPc3NiiH51WYKhZwWmG9HT4P/n5aWPlLs7/xLEmTIe362xvRj72kSwZ73Vo7Oj5LrxsO9sjOVsN3p0mXDHbNDzvoksEeQK0R1XeTLhlsd9DGdclgu2o7rHwMtz6ltZ3tXXd2o63GeaPTDTbTe3NkqV60w2A7pRoOaXe+so8dJAN2t867W+cu3kq00omPNl3WznblRqe39q1X3kgXt3P6jW5noXdai6rpHwOzvcviUfi9lN5iOPBPZLZYmKKfyPFh9+TzP/5EfOFnkuziI+U+cp9ziVxyLpALymXe5jLPuUFuONfINecKueI8hzzHeRZ5lnPwSuaV4JXMK8ErmVeCVzKvAK9gXgFewbwCvIJ5BXgF8wrwCuYV4BXMK8ArmFeAVzCvAK9gXgFeAV6Zz6e8Fx8pN8gN5xq55lwhV5znkOc4zyLPcp5BnuHcR+5zLpFLzgVy5jXgNcxrwGuY14DXMK8Br2FeA17DvAa8hnkNeA3zGvAa5jXgNcxrwGuYV4NXM68Gr2ZeDV7NvBq8mnk1eDXzavBq5tXg1cyrwauZV4NXM68Gr2ZeBV7FvAq8inkVeBXzKvAq5lXgVcyrwKuYV4FXMa8Cr2JeBV7FvAq88Ud+fNyaxcMjWn0dBmt/PDyi2lG/dpgsMDMRf9U+vYIgar9JmjsTM9N48u0thMupfUyPP5gqDu46NuL5V7RB0MaP4m7QjI0sRUMV+8zAXA7aaYWzi+1jICe4Cscd7TYHToMq51zMuZhzMedizsWcizkXcy52zVwsQy7m7MbZjbMbZzfObpzdOLtxdvP/2032im+acDphpRX9/EovhsxvFf3/Lu/eGTmrclblrMpZlbMqZ1XOqq6ZVfnKvTRyeuP0xumN0xunN05vnN5cI72Z/wVNTNQhri4AAA==',
+    filter_def: {
+        1: {cateId: '1'}, 2: {cateId: '2'}, 3: {cateId: '3'}, 4: {cateId: '4'}, 26: {cateId: '26'}
+    },
+    searchUrl: '/index.php?m=vod-search&wd=**',
+    searchable: 2,//是否启用全局搜索,
+    headers: {//网站的请求头,完整支持所有的,常带ua和cookies
+        'User-Agent': 'MOBILE_UA',
+    }, // class_parse: '#topnav li:lt(4);a&&Text;a&&href;.*/(.*?).html',
+    class_name: '电影&连续剧&综艺&动漫&短剧',//静态分类名称拼接
+    class_url: '1&2&3&4&26',//静态分类标识拼接
+    play_parse: true,
+    lazy: $js.toString(() => {
+        let init_js = `Object.defineProperties(navigator, {platform: {get: () => 'iPhone'}});`;
+        input = {
+            parse: 1,
+            url: input,
+            js: `try{location.href = document.querySelectorAll("iframe")[1].src;}catch(err) {}document.querySelector(".line").click()`,
+            parse_extra: '&init_script=' + encodeURIComponent(base64Encode(init_js)),
+        }
+    }),
+    limit: 6,
+    推荐: '.globalPicList li:has(img);a&&title;*;*;*',
+    一级: '.globalPicList li;.sTit&&Text;img&&src;.sBottom--em&&Text;a&&href',
+    二级: {
+        "title": ".title&&Text;.type-title&&Text",
+        "img": ".page-hd&&img&&src",
+        "desc": ".desc_item:eq(3)&&Text;.desc_item:eq(4)--span&&Text;;.desc_item:eq(1)--span&&Text;.desc_item:eq(2)--span&&Text",
+        "content": ".detail-con p&&Text",
+        "tabs": ".hd",
+        "lists": ".numList:eq(#id) li"
+    },
+    搜索: '.ulPicTxt.clearfix li;*;img&&data-src;.sDes:eq(1)&&Text;*',
+}

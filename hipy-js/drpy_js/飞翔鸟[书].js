@@ -1,1 +1,58 @@
-H4sIAFfAdWYC/4VUa2/TVhj+vl9hpciXEOy0El+cwQTVpDEVkCj9MFFknTjH8WlPbPec4zQpjbQv3ASMIqFpmhCITVqRxmiRkNbRVfszzaX/YufiJHZbVH+I4+d93ut53tMGRCMphtol7d5XGn+GH/f7r5+4mtHffT7a+WRUHKd/8HG0/WCzv/X+8J8/Ngf//jl8ub+pzNKFIYYh9zj6/fXwv5dHe2/ucN5doyKNYUwZt4WMJdR1nPX1dTvoRBvrth+3nIyTEswpDscxoswJuj4GlHpBNwFNaIeshTlRMikExA+Xivxy+Rh1ygR1UdmcgtZS5K8uStzVqgoLEGaQKNpsHuIJjPy3p4osYg0YuNq9XtYpBA1IqJsNUjzGEoXkwpUmjJjBna/fvHpt4Vtv6UoWJXNkqAXjlE/pYrWalRWiVUgWeHPzMc9aYrDDvNlSzjYvJvQFguOo+UWgJY6lf//d4NV7o2hT3VQzVGEJIFQ42BFo63qKdR2jGtD12zy4eIcEBjW77Jh2+RtrOT9sHzDowY6P0wacDinBoDsOykgKFYrBRtfVzq1Qm8WLjKCoaZqWdulybmwYMk1E56IkcC2FlJkoSlJm1QoUqTvOSRpBaAp+hetsVtVrHOP6ccT4KRxjz2SwrjdQ24Vr5oU5S9e/E41ZNoG8AR+aznLkNCtaqWTZNMGImaWv6+Qy/1IiMNui+DY3YsTZVcteiVFklpajUi6GHtVpUhNxDM0YBzJGO3+PPuweHjx3J7tzuPfX4OeHaruGBy8M6071brEVAkUb3y/evGFTOT8UdM3p8CYbWSlAWacTrJcbkByuuAGyw6pWspWM4jbEfGsN7bxIW9FWqDjennLtWSpFI07l/gQA0yzr4Kd3o2dbUykc7v04/LzNv2fmpazHkpLvGhCjn7WKSht7fn4qPacNHj181v/wa3/rxRkqkvOKm6YxeLw9evt06ia6uf6Dt3RrITcDtRynSe9UqgKlnMZiwsgGVNcn5Z+eQ1akmppU1H+0++WizqpmfAr5mzicy7ZgakKtphj/Aqh7V+N49VqrqetI/FDi52gNSH3B2whB1OyciJKpSB5k3Grxv4JwgsZAXQhl5oa8WG6LqnJWcWlLsyhE+avLxo1iZroiB0ARNdUqHP1yf7Szb1nF8J648XiMetzonkgvEpxNUBIvqi1v9BKOo85UxNl1Pdh6Nfz0G4fLHO/9D4iIgUJBBwAA
+var rule = {
+    类型: '小说',//影视|听书|漫画|小说
+    title: '飞翔鸟[书]',
+    host: 'https://www.fxnzw.com/',
+    url: '/fxnlist/fyclass_fypage.html',
+
+    searchUrl: '/fxnlist/**_fypage.html',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 1,
+    filter: '',
+    filter_url: '',
+    filter_def: {},
+    headers: {
+        'User-Agent': 'MOBILE_UA',
+    },
+    timeout: 5000,
+    hikerListCol: "text_1",
+    hikerClassListCol: "text_1",
+    //class_name: '全本',
+    //class_url: '0',
+    class_parse: '.nav&&ul&&li;a&&Text;a&&href;.*/(.*?)\.html',
+    cate_exclude: '',
+    play_parse: true,
+    lazy: $js.toString(() => {
+        let html = request(input);
+        let title = pdfh(html, 'h1&&Text');
+        let content = pdfh(html, '#content&&div:eq(-2)&&Html').replace(/\n/g, "").split("<br>").filter(v => v).slice(0).join("\n").replace(/&nbsp;/g, ' ').split('请记住:飞翔鸟中文小说网')[0];
+        let ret = JSON.stringify({
+            title,
+            content
+        });
+        input = {parse: 0, url: 'novel://' + ret, js: ''};
+    }),
+    double: false,
+    推荐: '',
+    一级: '#CrListText;a&&Text;;a:eq(1)&&Text;a&&href',
+    二级: {
+        重定向: $js.toString(() => {
+            log('执行重定向:' + MY_URL);
+            // let html = request(MY_URL);
+            MY_URL = pd(html, 'li.as&&a&&href', MY_URL);
+            log('二级重定向到:' + MY_URL);
+            html = request(MY_URL);
+        }),
+        title: 'h2&&Text',
+        img: '#Lab_BookImg&&img&&src',
+        desc: '#zhangx&&Text',
+        content: '#CommentText&&Text',
+        tabs: '#NclassTitle',
+        lists: '#BookText&&ul&&li:not(:contains(中文阅读))',
+        tab_text: 'body&&Text',
+        list_text: 'body&&Text',
+        list_url: 'a&&href',
+        list_url_prefix: '',
+    },
+    搜索: '*',
+}

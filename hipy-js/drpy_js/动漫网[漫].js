@@ -1,1 +1,11 @@
-/wOAwadqliIW36R7qF7RNBjZlrAqLcUEaSObqFVEivjId+D1HcA0uh6L3NrcodfPH3oAnN7TagL8uliCJWTtvOCfx/b/J52pZOhQSA0ya/Cbc380YIYY5QtzxKUVpUjSrFixsTVOErgEsx2QR5G7lmvIecfXC333VaK+6Tq5YuatuPw0bp8LKqtuN3E9lEJrP2zDeIIOaNd89hhwSL+llU2EHHjNUiis0l3juZjl3tQOJ6kyrtdpr7jUsYd9iIwf/Bx/v1xk5v5nnk0bWlRdrTKyhukSR6O4tR1dhe6XEao1l8kpEVDKiTjXDEQyfqpoHOPXte8dC4bUGPL/BjKQStvn7cPevIFgEwyWiGUXrSB5dAENLZdH4vCt7bF4tCTNxiMr8gpmvbUiU4Wkel45IxRX1dk2suXkSlThwwxFQ6FIl3WdXfVGTccJHgXWCDh715QOHzUo4ILkd5SU3uZQ8WvTZxjD4mB9Dka/CgL6HDuRQ2F+1rBjgaAW7mPjwzv5cDuunHR83YdErKEEgS9YiWwVaMjNWOQp7qqw/Kq53JbgQZIkLeAqRv2bsNkmf6iayw5w739i7CMqtE86uEF+Lg==
+muban.首图2.二级.tabs = '.tabt3&&span';
+muban.首图2.二级.lists = '.ulNumList&&ul&&li';
+var rule = {
+    title: '动漫网[漫]',
+    模板: '首图2',
+    host: 'https://www.dongman8.cc',
+    url: '/vodtype/fyclass-fypage.html',
+    searchUrl: '/vodsearch/**----------fypage---.html',
+    class_parse: '.stui-header__menu li:gt(0):lt(4);a&&Text;a&&href;.*/(.*?).html',
+    搜索: 'ul.stui-vodlist__media:eq(0),ul.stui-vodlist:eq(0),#searchList li;a&&title;.lazyload&&data-original;.pic-text&&Text;a&&href',
+}

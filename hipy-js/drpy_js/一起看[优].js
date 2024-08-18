@@ -1,1 +1,113 @@
-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
+function verifyLogin(key) {
+    let cnt = 0;
+    let cookie = '';
+    let content = '';
+    let yzm_url = 'https://www.cpldq.com/include/vdimgck.php';
+    log(`验证码链接:${yzm_url}`);
+    let submit_url = 'https://www.cpldq.com/search.php?scheckAC=check&page=1&searchtype=&order=&tid=&area=&year=&letter=&yuyan=&state=&money=&ver=&jq=';
+    log(`post登录链接:${submit_url}`);
+    while (cnt < OCR_RETRY) {
+        try {
+            let {cookie, html} = reqCookie(yzm_url + '?t=' + new Date().getTime(), {toBase64: true});
+            let code = OcrApi.classification(html);
+            let code1 = eval(code.slice(0, -1));
+            log(`第${cnt + 1}次验证码识别结果:${code}->${code1}`);
+            html = post(submit_url, {
+                headers: {Cookie: cookie},
+                body: 'validate=' + code1 + '&searchword=' + key,
+            });
+            if (/相关搜索结果/.test(html)) {
+                content = html;
+                return {cookie, html: content} // 需要返回cookie
+            } else if (!/相关搜索结果/.test(html) && cnt + 1 >= OCR_RETRY) {
+                cookie = ''; // 需要清空返回cookie
+            }
+        } catch (e) {
+            log(`第${cnt + 1}次验证码提交失败:${e.message}`);
+            if (cnt + 1 >= OCR_RETRY) {
+                cookie = '';
+            }
+        }
+        cnt += 1
+    }
+    return {cookie, html: content}
+}
+
+globalThis.verifyLogin = verifyLogin;
+
+var rule = {
+    title: '一起看[优]',
+    host: 'http://www.cpldq.com',
+    url: '/cptype/fyclass-fypage.html',
+    searchUrl: '/search.php?page=fypage&searchword=**&searchtype=',
+    searchable: 0,
+    quickSearch: 0,
+    filterable: 1,
+    filter: '',
+    filter_url: '',
+    headers: {
+        'User-Agent': 'MOBILE_UA',
+    },
+    timeout: 5000,
+    class_parse: '.sb_login_alert_box&&li;a&&Text;a&&href;/(\\d+)\.html',
+    cate_exclude: '',
+    play_parse: true,
+    lazy: $js.toString(() => {
+        input = {parse: 1, url: input, js: ''};
+    }),
+    double: true,
+    推荐: '.main&&.bgte1130;ul&&.sb-film-one;*;*;*;*',
+    一级: '.sb-area-index&&ul&&.qcontainer;i&&Text;.lazy&&data-original;.other&&Text;a&&href',
+    二级: {
+        title: '.name&&Text;.ct&&dd&&Text',
+        img: '.lazy&&data-original',
+        desc: '.ct&&dd:eq(1)&&Text;.ct&&dd:eq(2)&&Text;.ct&&dt:eq(2)&&Text;.ct&&dt&&Text;',
+        content: 'div.ee&&Text',
+        tabs: '.playfrom&&li',
+        lists: '.playlist:eq(#id)&&ul&&li:not(:contains(滈凊))',
+        tab_text: 'body--sup&&Text',
+        list_text: 'body&&Text',
+        list_url: 'a&&href'
+    },
+    //搜索: '*',
+    搜索: $js.toString(() => {
+        let cookie = getItem(RULE_CK, '') + ';ssea2_search=ok';
+        log('储存的cookie:' + cookie);
+        let ret = request(MY_URL, {
+            headers: {
+                Cookie: cookie,
+            }
+        });
+        if (/系统安全验证/.test(ret)) {
+            let login = verifyLogin(KEY);
+            cookie = login.cookie;
+            if (cookie) {
+                log(`本次成功过验证,cookie:${cookie}`);
+                setItem(RULE_CK, cookie);
+            } else {
+                log(`本次自动过搜索验证失败,cookie:${cookie}`);
+            }
+            ret = login.html;
+            // ret = request(MY_URL, {
+            //     headers: {
+            //         Cookie: cookie,
+            //     }
+            // });
+        }
+        let d = [];
+        let p = rule.一级.split(';');
+        let arr = pdfa(ret, p[0]);
+        arr.forEach(it => {
+            d.push({
+                title: pdfh(it, p[1]),
+                pic_url: pdfh(it, p[2]),
+                desc: pdfh(it, p[3]),
+
+                url: pdfh(it, p[4]),
+                content: '',
+            });
+
+        });
+        setResult(d);
+    }),
+}

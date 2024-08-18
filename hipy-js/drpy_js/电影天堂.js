@@ -1,1 +1,18 @@
-h36A5I5KdeB29zb3iwNWV75achcS5PQHW4roilH2jW/wcwW/oEYKiAZZJnbkIA6uTj0LujQiAzfpdC389WvZjniaDRAfeuFJPcTsapc6AdpBwKt7Yz6gGDF0G6rq7aHiSwFgElLSPwil1zAZa3bySPYT8jcA45O4O3wYdOxhR3Rt1Et8WmEO97j4fhCBVwf6gPII9HD+BACCeaEezxbR8Og3viOr+lB75XIpz6nN18oYZf1IiE6vj1u05ajjJGS7qRGOCyLpW4n4rGZ+3nUmNPoV2qa4iJpGNA2AXRonlAb58Ss0gR6Gh3kPzgnYk+IjxI9glSrbPK8QMn9jt7xZHR3z1QF5GBxdJ2hOlR7yAtSV4/oAsWHoKGzCPoxqYwcBzUb4v0+uE2G+2bvK+u77OPSUvh22klYNZ/R7D+IyL6Dauf+6WZN7v9RA0HqERCCH77MSbncQRB1brNJP53bicfGt3HD4z4QD3hEqTRd8Wx7xzAylZELRW0lIFQ5yz1qROlWiSuXPy1VmqcHwsTUlxC+3c2evCjytKq+xkzlwyVEBslm1coyYliRk3Cuq+oVD1x+Kfw7nqt5qX0yN/5gOCZDeJgad+WEYGLJemzOMdAFod+vH4yu4mA4Ysy2BdxsTh8KNtX53QMDx6BS7JGjt6g==
+var rule = {
+    模板: '自动',
+    title: '电影天堂[自动]',
+    host: 'http://www.hongbaohk.com',
+    class_parse: '.stui-header__menu li;a&&Text;a&&href;(\\d+).html',
+    url: '/rou/fyclass--------fypage---.html',
+    searchUrl: '/sou/**----------fypage---.html',
+    二级: {
+        title: '.stui-content__detail .title&&Text;.stui-content__detail p--span&&a&&Text',
+        img: '.stui-content__thumb .lazyload&&data-original',
+        desc: '.stui-content__detail p:eq(4)--strong&&Text;.stui-content__detail p--span--span--span--span&&a:eq(2)&&Text;.stui-content__detail p--span--span--span&&a:eq(1)&&Text;.stui-content__detail&&p:eq(2)--span&&Text;.stui-content__detail&&p:eq(3)--span&&Text',
+        content: '.detail&&Text',
+        tabs: '.stui-pannel__head h3',
+        tabs1: '.stui-vodlist__head h3',
+        lists: '.stui-content__playlist:eq(#id) li',
+    },
+    搜索: 'ul.stui-vodlist&&li;a&&title;.lazyload&&data-original;.pic-text&&Text;a&&href;.detail&&Text',
+}

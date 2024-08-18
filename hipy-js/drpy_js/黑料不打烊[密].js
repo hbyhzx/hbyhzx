@@ -1,1 +1,130 @@
-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
+var rule = {
+    title: '黑料不打烊[密]',
+    host: 'https://hl49.co',
+    url: '/category/fyclass/fypage.html',
+    searchUrl: '/index/search_article?word=**&page=fypage',
+    searchable: 1,
+    quickSearch: 0,
+    filterable: 0,
+    headers: {
+        'User-Agent': 'Mozilla/5.0',
+    },
+    class_parse: '.slider-content&&a;span&&Text;a&&href;.*/(\\d+)\.html',
+    hostJs: $js.toString(() => {
+        HOST = 'https://mgj.uzrpy.com';
+        try {
+            let html = request(rule.host);
+            HOST = pdfh(html, ".box-wrap&&a&&href") || HOST;
+        } catch (e) {
+            log(`获取Host错误${e.message}`);
+        }
+    }),
+    hikerListCol: "card_pic_1",
+    hikerClassListCol: "card_pic_1",
+    lazy: typeof MY_NAME !== "undefined" ? $js.toString(() => {
+        var list = jsp.pdfa(request(input), '.dplayer');
+        input = {
+            parse: ""
+        };
+        if (list.length === '1') {
+            let url = JSON.parse(pdfh(list[0], '.dplayer&&config')).video.url;
+            input.url = url.startsWith("http") ? url : "https://hls.vdtuzv.com" + url;
+        } else {
+            var a = []
+            list.forEach((data, id) => a.push('第' + (id + 1) + '部'))
+            input.url = $(a, 1)
+                .select(list => {
+                    input = input.match(/\d+/)[0] - 1
+                    return $(JSON.parse(pdfh(list[input], '.dplayer&&config'))
+                        .video.url)
+                        .lazyRule(() => input.startsWith("http") ? input : "https://hls.vdtuzv.com" + input)
+                }, list)
+        }
+    }) : void 0,
+    play_parse: true,
+    limit: 6,
+    proxy_rule: $js.toString(() => {
+        //log(input);
+        // 测试:https://www.wakatool.com/base64img
+        if (input) {
+            let t1 = new Date().getTime();
+            let _type = input.url.split('.').slice(-1)[0];
+            let data = request(input.url, {toBase64: true});
+            //log(data);
+            let t2 = new Date().getTime();
+            log(`网络请求获取图片耗时:${t2 - t1}ms`);
+            // log(`当前线程:${java.lang.Thread.currentThread().getName()}`);
+
+            let key = CryptoJS.enc.Utf8.parse("f5d965df75336270");
+            let iv = CryptoJS.enc.Utf8.parse("97b60394abc2fbe1");
+            let encrypted = CryptoJS.AES.decrypt({
+                ciphertext: CryptoJS.enc.Base64.parse(data)
+            }, key, {
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                padding: CryptoJS.pad.Pkcs7
+            }).toString(CryptoJS.enc.Base64);
+            // .toString(CryptoJS.enc.Utf8).toTypedArray(CryptoJS.enc.Utf8); //直接转参数3可用的字节流方法
+            let img_base64 = 'data:image/' + _type + ';base64,' + encrypted;
+            let t3 = new Date().getTime();
+            log(`已获取图片${input.url}解密耗时:${t3 - t2}ms`);
+            // // input = [200, 'text/plain', img_base64];
+            // input = [302, 'text/html', '', {Location:'https://www.baidu.com'}];
+            input = [200, 'image/' + _type, img_base64, null, 1];
+            // input = [200, 'text/plain', data];
+        }
+    }),
+    预处理: $js.toString(() => {
+        rule.cate_exclude = '';
+    }),
+    推荐: '*',
+    一级: $js.toString(() => {
+        let d = [];
+        let html = request(input);
+        let list = pdfa(html, '.video-item');
+        list.forEach(item => {
+            var pic = pdfh(item, 'img&&onload');
+            var url = pd(item, 'a&&href', MY_URL);
+            var title = pdfh(item, '.title&&Text');
+            if (title) {
+                d.push({
+                    title: title,
+                    img: pic,
+                    desc: "0",
+                    url: url
+                });
+            }
+        });
+        setResult(d);
+    }),
+    //一级: '.video-item;.title&&Text;img&&onload;;a&&href',
+    图片替换: $js.toString(() => {
+        if (/loadImg/.test(input)) {
+            input = input.split("'")[1];
+        }
+        // tim壳子专用图片解密
+        // input = input + '@Option:{"mode":"CBC","inbase64":false,"key":"f5d965df75336270","iv":"97b60394abc2fbe1"}';
+        input = getProxyUrl() + '&url=' + input;
+    }),
+    二级: "*",
+    搜索: $js.toString(() => {
+        let d = [];
+        let u = input.split("?");
+        let h = post(u[0], {
+            body: u[1]
+        });
+        let list = JSON.parse(h).data.list;
+
+        list.forEach(item => {
+            let pic = item.thumb;
+            let url = `${rule.host}/archives/${item.id}.html`
+            d.push({
+                title: item.title,
+                desc: item.created_date,
+                img: pic,
+                url: url
+            });
+        });
+        setResult(d);
+    })
+}

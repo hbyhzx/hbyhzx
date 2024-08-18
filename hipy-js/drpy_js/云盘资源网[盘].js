@@ -1,1 +1,76 @@
-H4sIAFfAdWYC/6VVXU/cRhR951dYbuQPYL0QKVK71jYiVR9IUzUq0BeKNo493h3itY09DmzISqRNobQQoKUtFVGVRmpAqlpASlS6fP2Ztb37L3pn7N01H60U1Q+79p1zzzlz587MQ83jvMBCXJGb7+PgIZhYqMCJzcZGvL3VevM0aqzHJxuT8DElDjJIxfEJICqEuH4hn/eQr9QC29VsZRbbGcxtH1Cdb6QZyIPAvDjhIy83UkY2EWH8409ujd75sDQxItYTZHz8Y/ziCYwExMy9m6YTXEVOAKo3hoaGklDgWQDK37yrldGobaC5ollz4V2ggTH8CBWHrwsfodqs4xlFYbzmIgDolub7wrhWLqbEJrYI8koJWRozENGwNZEN+Ujz9MrE20j29yeiWbWERrtPKzychGYCrD8YY/FuLDHVhbEYc16ytSpdnHjzTXhyIITLO+3tRSE+Om4tN4Twm93o+PdUKYEn00rR8NfaWYScKxPSQhjIhDWqp6Ku58zVSrQ/MqWwsWkir8Cl64D9z7CBnB7AtbRaydU8H5KIF6A0SgPn62xpj2oF7l4fNjkpL9H+mQk074Gi249nZ2cVzcLQVoaHHyJFd6qdGMXBp5xXCPKJhG03ILI832chwhFacB5AvMpY2aCCbd0KDORLfFaDp0lJAgtBSp1Dlo+4qzKvMMTL3OPH3L8AU5cZkcRVnfnUHdvEXrXIQySfPxcROm9DdA6UHLZmGZG7dCmgASVZ8RCUWEeSOO2Lg5RcHhAFJuIGfkUcSBkgCOUuigPI1h0DTXw6+oFTdR0bNl5aNbBzL11pC1cxbK/30h3gBKz5TA3qMQgWw69/av26q0p0PcO1lfDgiyQiq9GLpfbLLTXcPo2Xl9Roba11tq+2vz+Nnv2mtvZeRV9+JYVre83D1XDxZ5mRR892W6vr0Ab9Yob67XmahwtxYwd4oNCWWrkhCONojqi4WhYE39NVRdc8I0cglsv5sB4FNCPlrsspTGOfw/BZ8ZCZdmSzscIo56mv9dV4Z1+ND47CX75lo/Th2fnIFzi+K/ifOjybIptUjwMsUoaOU4ZpHh61Xj1J5x3+/bp5dKKGz/fDlYYaHW+GG1CavWN467FAu+mUpqdPlbsThIcRx38uNI8yE4DuINAClzOHspbjxlnrr73oh/346Glm8tp9nyZO+4XxkVtj0JmTYnvrrL20AlcE3BDiVDaZrei55BLVogQMFn33R7R5mmhw7YVlOMuSZoAxjrewT/yeS9Nx4HyiPt/BBjhVTMvRSA7ZBj/Y1WA5Be7atK8QZ4x42C5LkswV308vt85zZ3RsnLmfUs/FYS865e7myI7QPcrYhyHNNUxNqpCqNUibr+cu60qUlarmSphcVu/wlQhJyCoAAyotqb94QboLD4KLcAeOHbg+mBbRK1LecZH9uSRKSv9NWczLk8NTl7k8RALPZuoDnHhNhF+gPgerX7DA6qXQ00VKipAZr8tJ/emd8T92c7T+PH79Mj0VMjcSvY36+ur/AC+BXneoCAAA
+var rule = {
+    title: '云盘资源网[盘]',
+    host: 'https://res.yunpan.win',
+    hostJs: '',
+    headers: {'User-Agent': 'MOBILE_UA'},
+    编码: 'utf-8',
+    timeout: 5000,
+    url: '/?PageIndex=fypage&PageSize=12&Keyword=&Type=fyclass&Tag=',
+    filter_url: '',
+    detailUrl: '',
+    searchUrl: '/?PageIndex=fypage&PageSize=12&Keyword=**&Type=&Tag=',
+    searchable: 1,
+    quickSearch: 1,
+    filterable: 1,
+
+    class_name: '电影&剧集&综艺&动漫',
+    class_url: '电影&电视剧&综艺&动漫',
+    filter_def: {},
+
+    proxy_rule: '',
+    sniffer: 0,
+    isVideo: '',
+    play_parse: true,
+    parse_url: '',
+    lazy: `
+if (/(pan.quark.cn|www.aliyundrive.com|www.alipan.com)/.test(input)){
+let type="ali";
+if (input.includes("pan.quark.cn")){
+type="quark";
+} else if (input.includes("www.aliyundrive.com") || input.includes("www.alipan.com")){
+type="ali";
+}
+let confirm="";
+//let confirm="&confirm=0";
+input = getProxyUrl().replace('js',type)+'&type=push'+confirm+'&url='+encodeURIComponent(input);
+}`,
+
+    limit: 9,
+    double: false,
+//列表;(true双层列表);标题;图片;描述;链接;详情(可不写)
+    推荐: '*',
+//列表;标题;图片;描述;链接;详情(可不写)
+    一级: '.col;h5&&Text;img&&src;.card-text--span:eq(-2)&&Text;a:eq(-1)&&href',
+    二级: {
+//名称;类型
+        "title": "h5&&Text;.card-text--span:eq(-2)&&Text",
+//图片
+        "img": "img&&src",
+//主要描述;年份;地区;演员;导演
+        "desc": ".card-text:eq(2)&&Text;;;;",
+//简介
+        "content": ".card-text:eq(0)&&Text",
+//线路数组
+        "tabs": "js:TABS = ['阿里网盘']",
+//线路标题
+        "tab_text": "",
+//播放数组 选集列表
+// "lists": ".card-footer:eq(#id)&&.float-end",
+        lists: $js.toString(() => {
+            LISTS = [];
+            //log(input);
+            let lists1 = pdfa(html, '.card-footer&&.float-end').map(it => {
+                let _tt = pdfh(it, 'a&&Text');
+                let _uu = pdfh(it, 'a&&onclick').match(/open\('(.*?)'/)[1];
+                return _tt + '$' + _uu
+            });
+            LISTS.push(lists1);
+        }),
+    },
+
+//列表;标题;图片;描述;链接;详情(可不写)
+    搜索: '*',
+
+    filter: {}
+
+}

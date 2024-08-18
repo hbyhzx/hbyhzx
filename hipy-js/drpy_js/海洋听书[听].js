@@ -1,1 +1,60 @@
-dmFyIHJ1bGUgPSB7CiAgICDnsbvlnos6ICflkKzkuaYnLAogICAgdGl0bGU6ICfmtbfmtIvlkKzkuaYnLAogICAg57yW56CBOiAnZ2IxODAzMCcsCiAgICBob3N0OiAnaHR0cDovL20ueWNoeS5jYycsCiAgICBob21lVXJsOiAnL2Jlc3QuaHRtbCcsCiAgICB1cmw6ICcvbGlzdC9meWNsYXNzX2Z5cGFnZS5odG1sJywKICAgIHNlYXJjaFVybDogJy9zZWFyY2guYXNwP3BhZ2U9ZnlwYWdlJnNlYXJjaHdvcmQ9Kiomc2VhcmNodHlwZT0tMScsCiAgICBzZWFyY2hhYmxlOiAyLAogICAgcXVpY2tTZWFyY2g6IDAsCiAgICBoZWFkZXJzOiB7CiAgICAgICAgJ1VzZXItQWdlbnQnOiAnTU9CSUxFX1VBJwogICAgfSwKICAgIGNsYXNzX25hbWU6ICfnvZHnu5znjoTlubsm5oGQ5oCW5oKs55aRJuivhOS5puS4i+i9vSblhL/nq6Xor7vniakm55u45aOw5oiP5puyJuS8oOe7n+atpuS+oCbpg73luILoqIDmg4Um5Y6G5Y+y5Yab5LqLJuS6uueJqeS8oOiusCblub/mkq3liacm55m+5a626K6y5Z2bJuacieWjsOaWh+WtpibmjqLpmannm5flopMm6IGM5Zy65ZWG5oiYJywKICAgIGNsYXNzX3VybDogJzUyJjE3JjMmNCY3JjEyJjEzJjE1JjE2JjE4JjMyJjQxJjQ1JjgxJywKICAgIHBsYXlfcGFyc2U6IHRydWUsCiAgICBsYXp5OiAnJywKICAgIGxpbWl0OiA2LAogICAgZG91YmxlOiB0cnVlLAogICAg5o6o6I2QOiAnKicsCiAgICDkuIDnuqc6ICcubGlzdC11bCBsaTsudGl0JiZUZXh0O2ltZyYmc3JjO3Agc3BhbjplcSgwKSYmVGV4dDthJiZocmVmJywKICAgIOS6jOe6pzogewogICAgICAgIHRpdGxlOiAnaDImJlRleHQ7LmluZm8gZGl2OmVxKDQpJiZUZXh0JywKICAgICAgICBpbWc6ICcuYm9va2ltZyBpbWcmJnNyYycsCiAgICAgICAgZGVzYzogJy5pbmZvIGRpdjplcSgzKSYmVGV4dDs7Oy5pbmZvIGRpdjplcSgyKSYmVGV4dDsuaW5mbyBkaXY6ZXEoMSkmJlRleHQnLAogICAgICAgIGNvbnRlbnQ6ICcuYm9va19pbnRybyYmVGV4dCcsCiAgICAgICAgdGFiczogJy5zdWJfdGl0JywKICAgICAgICBsaXN0czogJyNwbGF5bGlzdCBsaScsCiAgICAgICAgLy8gbGlzdHM6IGBqczoKICAgICAgICAvLyAgICAgcGQgPSBqc3AucGQ7CiAgICAgICAgLy8gICAgIGxldCB1cmwgPSBwZChodG1sLCAiLmJvb2tidXR0b24mJmEmJmhyZWYiKTsKICAgICAgICAvLyAgICAgLy8gbG9nKHVybCk7CiAgICAgICAgLy8gICAgIGh0bWwgPSByZXF1ZXN0KHVybCk7CiAgICAgICAgLy8gICAgIGxldCB2ID0gcGQoaHRtbCwgIi5ib29rc2l0ZSYmc2NyaXB0JiZIdG1sIik7CiAgICAgICAgLy8gICAgIHZhciBkb2N1bWVudCA9IHt9OwogICAgICAgIC8vICAgICB2YXIgVmlkZW9MaXN0SnNvbjsKICAgICAgICAvLyAgICAgVmlkZW9MaXN0SnNvbiA9IGV2YWwodi5zcGxpdCgiVmlkZW9MaXN0SnNvbj0iKVsxXS5zcGxpdCgiLHVybGluZm8iKVswXSk7CiAgICAgICAgLy8gICAgIC8vIGxvZyh0eXBlb2YgVmlkZW9MaXN0SnNvbik7CiAgICAgICAgLy8gICAgIGxldCBsaXN0MSA9IFZpZGVvTGlzdEpzb25bMF1bMV07CiAgICAgICAgLy8gICAgIExJU1RTID0gW2xpc3QxXTsKICAgICAgICAvLyAgICAgLy8gbG9nKExJU1RTKTsKICAgICAgICAvLyBgLAogICAgfSwKICAgIOaQnOe0ojogYGpzOgogICAgICAgIGxldCBkID0gW107CiAgICAgICAgcGRmaCA9IGpzcC5wZGZoO3BkZmEgPSBqc3AucGRmYTtwZCA9IGpzcC5wZDsKICAgICAgICAvLyBsb2coaW5wdXQpOwogICAgICAgIGxldCBodG1sID0gcmVxdWVzdChpbnB1dCk7CiAgICAgICAgdmFyIGxpc3QgPSBwZGZhKGh0bWwsICcuYm9va19zbGlzdCYmLmJvb2tib3gnKTsKICAgICAgICBsaXN0LmZvckVhY2goZnVuY3Rpb24oaXQpIHsKICAgICAgICAgICAgZC5wdXNoKHsKICAgICAgICAgICAgICAgIHRpdGxlOiBwZGZoKGl0LCAnaDQmJlRleHQnKSwKICAgICAgICAgICAgICAgIGRlc2M6IHBkZmgoaXQsICcudXBkYXRlJiZUZXh0JyksCiAgICAgICAgICAgICAgICBwaWNfdXJsOiBwZChpdCwgJ2ltZyYmb3Jnc3JjJyksCiAgICAgICAgICAgICAgICB1cmw6ICdodHRwOi8vbS55Y2h5LmNvbS9ib29rLycgKyBwZGZoKGl0LCAnLmJvb2tib3gmJmJvb2tpZCcpICsgJy5odG1sJwogICAgICAgICAgICB9KQogICAgICAgIH0pOwogICAgICAgIHNldFJlc3VsdChkKTsKICAgIGAsCn0=
+var rule = {
+    类型: '听书',
+    title: '海洋听书',
+    编码: 'gb18030',
+    host: 'http://m.ychy.cc',
+    homeUrl: '/best.html',
+    url: '/list/fyclass_fypage.html',
+    searchUrl: '/search.asp?page=fypage&searchword=**&searchtype=-1',
+    searchable: 2,
+    quickSearch: 0,
+    headers: {
+        'User-Agent': 'MOBILE_UA'
+    },
+    class_name: '网络玄幻&恐怖悬疑&评书下载&儿童读物&相声戏曲&传统武侠&都市言情&历史军事&人物传记&广播剧&百家讲坛&有声文学&探险盗墓&职场商战',
+    class_url: '52&17&3&4&7&12&13&15&16&18&32&41&45&81',
+    play_parse: true,
+    lazy: '',
+    limit: 6,
+    double: true,
+    推荐: '*',
+    一级: '.list-ul li;.tit&&Text;img&&src;p span:eq(0)&&Text;a&&href',
+    二级: {
+        title: 'h2&&Text;.info div:eq(4)&&Text',
+        img: '.bookimg img&&src',
+        desc: '.info div:eq(3)&&Text;;;.info div:eq(2)&&Text;.info div:eq(1)&&Text',
+        content: '.book_intro&&Text',
+        tabs: '.sub_tit',
+        lists: '#playlist li',
+        // lists: `js:
+        //     pd = jsp.pd;
+        //     let url = pd(html, ".bookbutton&&a&&href");
+        //     // log(url);
+        //     html = request(url);
+        //     let v = pd(html, ".booksite&&script&&Html");
+        //     var document = {};
+        //     var VideoListJson;
+        //     VideoListJson = eval(v.split("VideoListJson=")[1].split(",urlinfo")[0]);
+        //     // log(typeof VideoListJson);
+        //     let list1 = VideoListJson[0][1];
+        //     LISTS = [list1];
+        //     // log(LISTS);
+        // `,
+    },
+    搜索: `js:
+        let d = [];
+        pdfh = jsp.pdfh;pdfa = jsp.pdfa;pd = jsp.pd;
+        // log(input);
+        let html = request(input);
+        var list = pdfa(html, '.book_slist&&.bookbox');
+        list.forEach(function(it) {
+            d.push({
+                title: pdfh(it, 'h4&&Text'),
+                desc: pdfh(it, '.update&&Text'),
+                pic_url: pd(it, 'img&&orgsrc'),
+                url: 'http://m.ychy.com/book/' + pdfh(it, '.bookbox&&bookid') + '.html'
+            })
+        });
+        setResult(d);
+    `,
+}

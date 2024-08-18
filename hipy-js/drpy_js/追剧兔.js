@@ -1,1 +1,16 @@
-T2JqZWN0LmFzc2lnbihtdWJhbi7nn63op4YyLuS6jOe6pywgewogICAgaW1nOiAnLmxhenkmJmRhdGEtc3JjJywKfSk7CnZhciBydWxlID0gewogICAg5qih5p2/OiAn55+t6KeGMicsCiAgICB0aXRsZTogJ+i/veWJp+WFlCcsCiAgICBob3N0OiAnaHR0cHM6Ly96anR1LnR2JywKICAgIGNsYXNzX25hbWU6ICfnlLXlvbEm55S16KeG5YmnJue7vOiJuibliqjmvKsm6K6w5b2VJuefreWJpycsCiAgICBjbGFzc191cmw6ICcxJjImMyY0JjUmMjAnLAogICAgc2VhcmNoVXJsOiAnL2luZGV4LnBocC9hamF4L3N1Z2dlc3Q/bWlkPTEmd2Q9KiombGltaXQ9NTAnLAogICAgZGV0YWlsVXJsOiAnL3Byb2plY3QtZnlpZC8nLAogICAg5o6o6I2QOiAnLnB1YmxpYy1saXN0LWJveDthJiZ0aXRsZTsubGF6eSYmZGF0YS1zcmM7LnB1YmxpYy1saXN0LXByYiYmVGV4dDthJiZocmVmJywKICAgIOWbvueJh+abv+aNojogJGpzLnRvU3RyaW5nKCgpID0+IHsKICAgICAgICBpbnB1dCA9IGlucHV0LnJlcGxhY2UoJ21hYzovLycsICdodHRwczovLycpOwogICAgfSksCn0=
+Object.assign(muban.短视2.二级, {
+    img: '.lazy&&data-src',
+});
+var rule = {
+    模板: '短视2',
+    title: '追剧兔',
+    host: 'https://zjtu.tv',
+    class_name: '电影&电视剧&综艺&动漫&记录&短剧',
+    class_url: '1&2&3&4&5&20',
+    searchUrl: '/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+    detailUrl: '/project-fyid/',
+    推荐: '.public-list-box;a&&title;.lazy&&data-src;.public-list-prb&&Text;a&&href',
+    图片替换: $js.toString(() => {
+        input = input.replace('mac://', 'https://');
+    }),
+}

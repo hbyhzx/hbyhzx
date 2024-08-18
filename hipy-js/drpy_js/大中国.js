@@ -1,1 +1,12 @@
-T2JqZWN0LmFzc2lnbihtdWJhbi5teHByby7kuoznuqcsIHsKICAgIHRhYl90ZXh0OiAnZGl2LS1zbWFsbCYmVGV4dCcsCn0pOwp2YXIgcnVsZSA9IHsKICAgIOaooeadvzogJ214cHJvJywKICAgIHRpdGxlOiAn5aSn5Lit5Zu9JywKICAgIGhvc3Q6ICdodHRwczovL3ZpZGVvLmFvMTQuY24vJywKICAgIHVybDogJy9pbmRleC5waHAvdm9kL3Nob3cvaWQvZnljbGFzcy9wYWdlL2Z5cGFnZS5odG1sJywKICAgIHNlYXJjaFVybDogJy9pbmRleC5waHAvdm9kL3NlYXJjaC9wYWdlL2Z5cGFnZS93ZC8qKi5odG1sJywKICAgIGNsYXNzX3BhcnNlOiAnLm5hdmJhci1pdGVtcyBsaTpndCgwKTpsdCg4KTthJiZUZXh0O2EmJmhyZWY7LiovKC4qPylcLmh0bWwnLAogICAgY2F0ZV9leGNsdWRlOiAn5LuK5pel5pu05pawfOeDreamnCcsCn0=
+Object.assign(muban.mxpro.二级, {
+    tab_text: 'div--small&&Text',
+});
+var rule = {
+    模板: 'mxpro',
+    title: '大中国',
+    host: 'https://video.ao14.cn/',
+    url: '/index.php/vod/show/id/fyclass/page/fypage.html',
+    searchUrl: '/index.php/vod/search/page/fypage/wd/**.html',
+    class_parse: '.navbar-items li:gt(0):lt(8);a&&Text;a&&href;.*/(.*?)\.html',
+    cate_exclude: '今日更新|热榜',
+}

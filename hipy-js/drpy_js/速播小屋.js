@@ -1,1 +1,17 @@
-dmFyIHJ1bGUgPSB7CiAgICDmqKHmnb86ICdteG9uZTUnLAogICAgdGl0bGU6ICfpgJ/mkq3lsI/lsYsnLAogICAgaG9zdDogJ2h0dHA6Ly92emprcWkuc3Vib3d1MjIuY29tJywKICAgIC8vIHVybDogJy9zaG93L2Z5Y2xhc3MvcGFnZS9meXBhZ2UvJywKICAgIHVybDogJy9zaG93L2Z5ZmlsdGVyL3BhZ2UvZnlwYWdlLycsCiAgICBmaWx0ZXJhYmxlOiAxLAogICAgZmlsdGVyX3VybDogJ3t7ZmwuY2F0ZUlkfX0nLAogICAgZmlsdGVyOiAnSDRzSUFBQUFBQUFBQTVXUndVN0NRQkNHMzJYUGZRTGV3R2N3SEJhNmFSZm9OaXFMdHFRSnhoQ3BKcUlIVVdPako2MGFFdVVHYmNyVGRMZmhMWnkyS1YyT1BjNSsvL3d6OCs4WTZSUXpoeklEdFk3SHFFOGMxRUpkUENSSE90SVF3eGFCT2x2RjR1MFc2aEVlY0ZJSVIvQ3MyOHh3dVozcm9CSTNYMmtTWlA0MThyU1NYOUFlcitBaUVINm9Ra3hQOHFFbHptWXJlVFZWY1orWUhMTUtodzlpRXg5Z0dOMnB6T1hsdlp3c1ZOd0Q2L3l1cWorZWkrbGFGYmdtWnE1SjlndkkyWE1hK1ljV2c4by9pMzVFOGxqQXR0Zldpc1RPVE5vOE1JUGJYUmhjcC9LYXBGRUl3ZXlucW5UMy9nMENsZHJjSW5XbWNobG0yenVWbnlydzZVTUdTeFVhbUJuWXJ0MC9YK1Q2VnhVTU1UMVhsNXYveWMyMkVCUlh1eEM1MCtqb01peG9zK0FubXZWNS8vWGVtT3lZQWdBQScsCiAgICBmaWx0ZXJfZGVmOiB7CiAgICAgICAgZGlhbnlpbmc6IHtjYXRlSWQ6ICdkaWFueWluZyd9LAogICAgICAgIGRpYW5zaGk6IHtjYXRlSWQ6ICdkaWFuc2hpJ30sCiAgICAgICAgem9uZ3lpOiB7Y2F0ZUlkOiAnem9uZ3lpJ30sCiAgICAgICAgZG9uZ21hbjoge2NhdGVJZDogJ2RvbmdtYW4nfQogICAgfSwKICAgIGNsYXNzX3BhcnNlOiAnLm5hdi1tZW51LWl0ZW1zIGxpLm5hdi1tZW51LWl0ZW06bHQoNSk7YSYmVGV4dDthJiZocmVmOy4qLyguKj8pLycsCn0=
+var rule = {
+    模板: 'mxone5',
+    title: '速播小屋',
+    host: 'http://vzjkqi.subowu22.com',
+    // url: '/show/fyclass/page/fypage/',
+    url: '/show/fyfilter/page/fypage/',
+    filterable: 1,
+    filter_url: '{{fl.cateId}}',
+    filter: 'H4sIAAAAAAAAA5WRwU7CQBCG32XPfQLewGcwHBa6aRfoNiqLtqQJxhCpJqIHUWOjJ60aEuUGbcrTdLfhLZy2KV2OPc5+//wz8+8Y6RQzhzIDtY7HqE8c1EJdPCRHOtIQwxaBOlvF4u0W6hEecFIIR/Cs28xwuZ3roBI3X2kSZP418rSSX9Aer+AiEH6oQkxP8qElzmYreTVVcZ+YHLMKhw9iEx9gGN2pzOXlvZwsVNwD6/yuqj+ei+laFbgmZq5J9gvI2XMa+YcWg8o/i35E8ljAttfWisTOTNo8MIPbXRhcp/KapFEIweynqnT3/g0CldrcInWmchlm2zuVnyrw6UMGSxUamBnYrt0/X+T6VxUMMT1Xl5v/yc22EBRXuxC50+joMixos+AnmvV5//XemOyYAgAA',
+    filter_def: {
+        dianying: {cateId: 'dianying'},
+        dianshi: {cateId: 'dianshi'},
+        zongyi: {cateId: 'zongyi'},
+        dongman: {cateId: 'dongman'}
+    },
+    class_parse: '.nav-menu-items li.nav-menu-item:lt(5);a&&Text;a&&href;.*/(.*?)/',
+}

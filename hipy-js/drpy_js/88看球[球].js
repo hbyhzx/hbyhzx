@@ -1,1 +1,86 @@
-dmFyIHJ1bGUgPSB7CiAgICB0aXRsZTogIjg455yL55CDW+eQg10iLAogICAgLy8gaG9zdDonaHR0cDovL3d3dy44OGthbnFpdS5jYycsCiAgICBob3N0OiAiaHR0cDovL3d3dy44OGthbnFpdS5saXZlIiwKICAgIHVybDogIi9tYXRjaC9meWNsYXNzL2xpdmUiLAogICAgc2VhcmNoVXJsOiAiIiwKICAgIHNlYXJjaGFibGU6IDAsCiAgICBxdWlja1NlYXJjaDogMCwKICAgIGNsYXNzX3BhcnNlOiAiLm5hdi1waWxscyBsaTthJiZUZXh0O2EmJmhyZWY7L21hdGNoLyhcXGQrKS9saXZlIiwKICAgIGhlYWRlcnM6IHsKICAgICAgICAiVXNlci1BZ2VudCI6ICJQQ19VQSIsCiAgICB9LAogICAgdGltZW91dDogNTAwMCwKICAgIHBsYXlfcGFyc2U6IHRydWUsCiAgICBwYWdlY291bnQ6IHsKICAgICAgICAiMSI6IDEsCiAgICAgICAgIjIiOiAxLAogICAgICAgICI0IjogMSwKICAgICAgICAiMjIiOiAxLAogICAgICAgICI4IjogMSwKICAgICAgICAiOSI6IDEsCiAgICAgICAgIjEwIjogMSwKICAgICAgICAiMTQiOiAxLAogICAgICAgICIxNSI6IDEsCiAgICAgICAgIjEyIjogMSwKICAgICAgICAiMTMiOiAxLAogICAgICAgICIxNiI6IDEsCiAgICAgICAgIjI4IjogMSwKICAgICAgICAiNyI6IDEsCiAgICAgICAgIjExIjogMSwKICAgICAgICAiMzMiOiAxLAogICAgICAgICIyNyI6IDEsCiAgICAgICAgIjIzIjogMSwKICAgICAgICAiMjYiOiAxLAogICAgICAgICIzIjogMSwKICAgICAgICAiMjEiOiAxLAogICAgICAgICIxOCI6IDEKICAgIH0sCiAgICBsYXp5OiAkanMudG9TdHJpbmcoKCkgPT4gewogICAgICAgIGlmICgvZW1iZWQ9Ly50ZXN0KGlucHV0KSkgewogICAgICAgICAgICBsZXQgdXJsID0gaW5wdXQubWF0Y2goL2VtYmVkPSguKj8pJi8pWzFdOwogICAgICAgICAgICB1cmwgPSBiYXNlNjREZWNvZGUodXJsKTsKICAgICAgICAgICAgaW5wdXQgPSB7CiAgICAgICAgICAgICAgICBqeDogMCwKICAgICAgICAgICAgICAgIHVybDogdXJsLnNwbGl0KCcjJylbMF0sCiAgICAgICAgICAgICAgICBwYXJzZTogMAogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIGlmICgvXD91cmw9Ly50ZXN0KGlucHV0KSkgewogICAgICAgICAgICBpbnB1dCA9IHsKICAgICAgICAgICAgICAgIGp4OiAwLAogICAgICAgICAgICAgICAgdXJsOiBpbnB1dC5zcGxpdCgnP3VybD0nKVsxXS5zcGxpdCgnIycpWzBdLAogICAgICAgICAgICAgICAgcGFyc2U6IDAKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGlucHV0CiAgICAgICAgfQogICAgfSksCiAgICBsaW1pdDogNiwKICAgIGRvdWJsZTogZmFsc2UsCiAgICDmjqjojZA6ICIqIiwKICAgIOS4gOe6pzogIi5saXN0LWdyb3VwIC5ncm91cC1nYW1lLWl0ZW07LmQtbm9uZSYmVGV4dDtpbWcmJnNyYzsuYnRuJiZUZXh0O2EmJmhyZWYiLAogICAg5LqM57qnOiB7CiAgICAgICAgdGl0bGU6ICIuZ2FtZS1pbmZvLWNvbnRhaW5lciYmVGV4dDsuY3VzdG9tZXItbmF2YmFyLW5hdiBsaSYmVGV4dCIsCiAgICAgICAgaW1nOiAiaW1nJiZzcmMiLAogICAgICAgIGRlc2M6ICI7OztkaXYudGVhbS1uYW1lOmVxKDApJiZUZXh0O2Rpdi50ZWFtLW5hbWU6ZXEoMSkmJlRleHQiLAogICAgICAgIGNvbnRlbnQ6ICJkaXYuZ2FtZS10aW1lJiZUZXh0IiwKICAgICAgICB0YWJzOiAianM6VEFCUz1bJ+mBk+mVv+WcqOe6vyddIiwKICAgICAgICBsaXN0czogJGpzLnRvU3RyaW5nKCgpID0+IHsKICAgICAgICAgICAgTElTVFMgPSBbXTsKICAgICAgICAgICAgbGV0IGh0bWwgPSByZXF1ZXN0KGlucHV0LnJlcGxhY2UoJ3BsYXknLCAncGxheS11cmwnKSk7CiAgICAgICAgICAgIGxldCBwZGF0YSA9IEpTT04ucGFyc2UoaHRtbCkuZGF0YTsKICAgICAgICAgICAgcGRhdGEgPSBwZGF0YS5zbGljZSg2KTsKICAgICAgICAgICAgcGRhdGEgPSBwZGF0YS5zbGljZSgwLCAtMik7CiAgICAgICAgICAgIHBkYXRhID0gYmFzZTY0RGVjb2RlKHBkYXRhKTsKICAgICAgICAgICAgLy8gbG9nKHBkYXRhKTsKICAgICAgICAgICAgbGV0IGpvID0gSlNPTi5wYXJzZShwZGF0YSkubGlua3M7CiAgICAgICAgICAgIGxldCBkID0gam8ubWFwKGZ1bmN0aW9uIChpdCkgewogICAgICAgICAgICAgICAgcmV0dXJuIGl0Lm5hbWUgKyAnJCcgKyB1cmxlbmNvZGUoaXQudXJsKQogICAgICAgICAgICB9KTsKICAgICAgICAgICAgTElTVFMucHVzaChkKQogICAgICAgIH0pLAogICAgfSwKICAgIOaQnOe0ojogIiIsCn07
+var rule = {
+    title: "88看球[球]",
+    // host: 'http://www.88kq.net/',//发布页
+    // host:'http://www.88kanqiu.cc',
+    // host: "http://www.88kanqiu.live",
+    host: "http://www.88kanqiu.dog",
+    url: "/match/fyclass/live",
+    searchUrl: "",
+    searchable: 0,
+    quickSearch: 0,
+    class_parse: ".nav-pills li;a&&Text;a&&href;/match/(\\d+)/live",
+    headers: {
+        "User-Agent": "PC_UA",
+    },
+    timeout: 5000,
+    play_parse: true,
+    pagecount: {
+        "1": 1,
+        "2": 1,
+        "4": 1,
+        "22": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "14": 1,
+        "15": 1,
+        "12": 1,
+        "13": 1,
+        "16": 1,
+        "28": 1,
+        "7": 1,
+        "11": 1,
+        "33": 1,
+        "27": 1,
+        "23": 1,
+        "26": 1,
+        "3": 1,
+        "21": 1,
+        "18": 1
+    },
+    lazy: $js.toString(() => {
+        if (/embed=/.test(input)) {
+            let url = input.match(/embed=(.*?)&/)[1];
+            url = base64Decode(url);
+            input = {
+                jx: 0,
+                url: url.split('#')[0],
+                parse: 0
+            }
+        } else if (/\?url=/.test(input)) {
+            input = {
+                jx: 0,
+                url: input.split('?url=')[1].split('#')[0],
+                parse: 0
+            }
+        } else {
+            input
+        }
+    }),
+    limit: 6,
+    double: false,
+    推荐: "*",
+    一级: ".list-group .group-game-item;.d-none&&Text;img&&src;.btn&&Text;a&&href",
+    二级: {
+        title: ".game-info-container&&Text;.customer-navbar-nav li&&Text",
+        img: "img&&src",
+        desc: ";;;div.team-name:eq(0)&&Text;div.team-name:eq(1)&&Text",
+        content: "div.game-time&&Text",
+        tabs: "js:TABS=['道长在线']",
+        lists: $js.toString(() => {
+            LISTS = [];
+            let html = request(input.replace('play', 'play-url'));
+            let pdata = JSON.parse(html).data;
+            pdata = pdata.slice(6);
+            pdata = pdata.slice(0, -2);
+            pdata = base64Decode(pdata);
+            // log(pdata);
+            let jo = JSON.parse(pdata).links;
+            let d = jo.map(function (it) {
+                return it.name + '$' + urlencode(it.url)
+            });
+            LISTS.push(d)
+        }),
+    },
+    搜索: "",
+};

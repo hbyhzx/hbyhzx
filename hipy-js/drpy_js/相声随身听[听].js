@@ -1,1 +1,47 @@
-H4sIAFfAdWYC/21VS2/bRhC+91cIbqFH6IiSLFmOBB9IW0/TlvWW7BjCilySKz7FJUWKhoCcihbow4ceiqanFmgDtEVaoIcg/Tt1nPyLLvVoyKYECPKb75vZ2Z3B7AJYMctRYew4dvtRjDw2slVYiiUenr+6//H3d999/fb1L/d3v16T9yaxv5bIBraJQrZtE5do2nXdtIc18yDNG9pWQtMxx1JLCVpc8irAmHxNIMG0bGvqVhLwsUAgItWG1v8oNgSYBvlk92n6zbcv7+9+ur97+fDNi/vPPn3446+H356/e/Z5WD3ZhL29FdU0D2zYEFarSDhC1vO4weyew2F3lCmetNnTWrHIXfJM1cmzyvlpRrJYZt6RmqCqnMkVl0WcdsYonUqVlWaVscwIqnd1qOVyg0W+023P7AZF9YBPHeEDuphHqKt4FduwlXnnrDuWKw1fzXaWFVYxDpXBuVywuhy8RBUaaah+KDfPW0dP9HZWgS1MtVvMXHVb5qmqiLzICthF1HRxUfAROOkeNMb4Cvk1xu11Zg2xu6gtxEGrf9rOeqyfOzx9Yua8efNI6ip2ft5UR5XqDFdH1UJHvDSKgBRsPM4Wl8RbH15iJ3MlcRxo10760GwPPaPv6o5vNtxm1nH4pot7ObqbqQlQ8kaMUUeVM5/2l2ODZnsCp53LDpqONe4sf9AanZxMl1ONX3C9vIDocb2YzwjmaFzlp9Ung5y7FAZjb047ksoWJdAdFtW5P2sWbG/mNoYK16IuOjSpSj8/VnhhXNcPsg3hwhtdGBTXv6K1PF/n6oBiLV5r1UbeEdPK1c6nDZoFJy4HxWzBzzeA1NEvOaowpJj2cAjggOySYSK1nwhQLG37PHgkQSJw0yakLwhMrPb/ZYUlDrMEhlkPe1gN82tDWDGfR/wJDLNa1FuL+srTCEtgmFWnVpglMBJ5Fgk8i8RdupG4SzfMYhxxJTDMzpQwOVMia/paZFFfC7NLXw6zBEZWdSO+BCZWa3KrwRBYvNzfjAts0I8eTT6cFRvRZlbkNqa5g3ilu7aXYpnt6IJAgBYON0Gij6H1mJGgbifICucttsFVJn0mEc7BRho0HDL1CpnMNtR6rk1MYOFgXKZVhO3HOligeFxFZRCP96BnB1/ZgmKZTj596lKpcMamCpY7d9ty4MaqAn8ZnC4uId107OPbmVfK7AdDbY33Nw6Z3UxTyfwgWR1u0JuvXrz98o64P9rSf7969vD6Z2L42CQzexLkOJka3jpFObfNEWlSPI4tvpwWJxb5M4FegvPkQSq6h13I11+sQ74/wN2NIWe3DukFgu7mP/G+zGQZItotFiIEiPngBN97lcvltKrpQIO7iMCxZcP6ICZv6DapW+A9Y7B1uRTz8bgZZJ9NfSAmd5INprgUHG6PYbvH13v/ueT2bkLy4LDwphQLckkOkAANjtia2NDLEXQMF0BNBqVNY1NFdnIPOAIySrG91HX2ZmdbPU0RnLlJlVVor6Nnj69vopHSomFVAC8nRUfnbWToSWSnbtfatOlgmcB0cCxpbFvITKaovU82t/AeRRjSJalVqsw1uj2yubXXTXm7o20fv7n7/uHPH7YdsvoH5PNfIP0HAAA=
+var rule = {
+    title: '相声随身听[听]',
+    host: 'https://www.xsmp3.com',
+    // url:'/fyclass/fypage.html',
+    url: '/fyfilter/fypage.html',
+    filterable: 1,//是否启用分类筛选,
+    filter_url: '{{fl.cateId}}',
+    filter: 'H4sIAAAAAAAAA6WSX07CQBDG77LPcAFu4BkMD0grBAqRgJaFkKhEwBiLmKAkREFBgjEYhAdlxZ6m22Vv4RSQjtI++Taz+8s3/74iiSkxEtotkqRKSYhEIzl1RyEBko6kVMh5rSLePiE/imiH6hJMO89nQ1keOs+QOAqlwOpDlkfcfBdswi+bvN5ziaCS3IYsZizGAwTRjIfSvGvfVOUDQ1xBz26D9p2xqJ8gSkt4qJlXEFjsFXF5RfPo7atpsYY17yAwTnWPsu0ZgLLaQGCUepQWxoUwnuzpIwJ1uucJwsT2/S0GdegxXAoHiEKz/zyYo/BTdLmMhuibYmLK43OXCCbybmcvLT4di/YH740dpXYFcbF9V2wydVYxq/uglB7gaSW7lqzjJ5txjwIWkLO+NR/4sIU4YkcdYHn31IdNxXNo+LUZ/m4cHLHa+BrcmOGXx8AO2GMbI/BaCwLef15z4IagRnPL+5W+AQWWaeVyAwAA',
+    filter_def: {
+        gdg: {cateId: 'gdg'},
+        dys: {cateId: 'dys'},
+        xsxsl: {cateId: 'xsxsl'},
+        qqs: {cateId: 'qqs'},
+        msl: {cateId: 'msl'},
+        hbl: {cateId: 'hbl'},
+        lbr: {cateId: 'lbr'},
+        mj: {cateId: 'mj'},
+        hyw: {cateId: 'hyw'},
+        ssj: {cateId: 'ssj'},
+        jk: {cateId: 'jk'},
+        mzm: {cateId: 'mzm'},
+        yzh: {cateId: 'yzh'},
+        swm: {cateId: 'swm'}
+    },
+    searchUrl: '/so/**_fypage.html',
+    searchable: 2,
+    quickSearch: 0,
+    headers: {
+        'User-Agent': 'MOBILE_UA'
+    },
+    timeout: 5000,
+    class_parse: '.list-navi&&li;a&&Text;a&&href;/(\\w+).html',
+    play_parse: true,
+    lazy: 'js:input={jx:0,url:input,parse:0}',
+    limit: 6,
+    推荐: '*',
+    一级: '#post_list_box&&li;h2&&Text;img&&src;.f_r&&span:eq(3)&&Text;a&&href',
+    二级: {
+        title: 'h1&&Text;.view&&Text',
+        img: 'img&&src',
+        desc: '.view&&Text;;;.lmname&&Text;.author&&Text',
+        content: '.jAsrPyf4&&p:eq(1)&&Text',
+        // tabs:'js:TABS=["相声随身听"]',
+        lists: 'js:var VideoListJson;VideoListJson=eval(html.split("audio: ")[1].split("}\)")[0]);let list1=[];VideoListJson.forEach(function(it){list1.push(it.name.strip()+"$https:"+it.url)});LISTS=[list1];',
+    },
+    搜索: '*',
+}

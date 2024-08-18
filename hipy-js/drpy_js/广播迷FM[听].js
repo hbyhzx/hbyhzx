@@ -1,1 +1,42 @@
-dmFyIHJ1bGUgPSB7Cgl0aXRsZTon5bm/5pKt6L+3Rk1b5ZCsXScsCglob3N0OidodHRwOi8vd3d3Lmd1YW5nYm9taS5jb20nLAogICAg57yW56CBOidnYjE4MDMwJywKICAgIOaQnOe0oue8lueggTonZ2IxODAzMCcsCgl1cmw6ICcvZnlmaWx0ZXIuaHRtbD9wYWdlPWZ5cGFnZScsCglmaWx0ZXJfdXJsOid7e2ZsLmNhdGVJZH19JywKCWZpbHRlcjp7CgkJImxpdmUiOlt7ImtleSI6ImNhdGVJZCIsIm5hbWUiOiLmjInnsbvlnosiLCJ2YWx1ZSI6W3sibiI6IuaWsOmXu+e7vOWQiCIsInYiOiJmbWxpc3QyMCJ9LHsibiI6IuS6pOmAmiIsInYiOiJmbWxpc3Q1OCJ9LHsibiI6Iumfs+S5kCIsInYiOiJmbWxpc3Q1NyJ9LHsibiI6Iue7j+a1jiIsInYiOiJmbWxpc3Q1NiJ9LHsibiI6IueUn+a0uyIsInYiOiJmbWxpc3Q1OSJ9LHsibiI6IuaWh+iJuiIsInYiOiJmbWxpc3Q2MCJ9LHsibiI6IumDveW4giIsInYiOiJmbWxpc3Q2MSJ9LHsibiI6IuaVheS6iyIsInYiOiJmbWxpc3Q2MiJ9LHsibiI6IuaXhea4uCIsInYiOiJmbWxpc3Q2MyJ9LHsibiI6IuS5oeadkSIsInYiOiJmbWxpc3Q2NCJ9LHsibiI6IuWoseS5kCIsInYiOiJmbWxpc3Q2NSJ9LHsibiI6IuaIj+absiIsInYiOiJmbWxpc3Q2NiJ9LHsibiI6IuS9k+iCsiIsInYiOiJmbWxpc3Q2NyJ9LHsibiI6IuivhOS5puebuOWjsCIsInYiOiJmbWxpc3Q2OSJ9LHsibiI6IumdkuWwkeenkeaVmSIsInYiOiJmbWxpc3Q3MCJ9LHsibiI6Iue9kee7nOWPsCIsInYiOiJmbWxpc3QxMTMifSx7Im4iOiLmsb3ovaYiLCJ2IjoiZm1saXN0MTM0In0seyJuIjoi5YW25LuWIiwidiI6ImZtbGlzdDEzNSJ9XX1dLAoJCSJ0diI6W3sia2V5IjoiY2F0ZUlkIiwibmFtZSI6IuaMieexu+WeiyIsInZhbHVlIjpbeyJuIjoi5Y2r6KeG5Y+wIiwidiI6InR2bGlzdDIwMCJ9LHsibiI6IuecgeWPsCIsInYiOiJ0dmxpc3QyMjAifSx7Im4iOiLluILlj7AiLCJ2IjoidHZsaXN0MjIxIn0seyJuIjoi5Yy65Y6/5Y+wIiwidiI6InR2bGlzdDIyMiJ9LHsibiI6IuaWsOmXu+e7vOWQiCIsInYiOiJ0dmxpc3QyMDEifSx7Im4iOiLotKLnu48iLCJ2IjoidHZsaXN0MjAyIn0seyJuIjoi57u86Im6IiwidiI6InR2bGlzdDIwMyJ9LHsibiI6IuS9k+iCsiIsInYiOiJ0dmxpc3QyMDQifSx7Im4iOiLlvbHop4YiLCJ2IjoidHZsaXN0MjA1In0seyJuIjoi5YWs5YWxIiwidiI6InR2bGlzdDIwNiJ9LHsibiI6IumDveW4giIsInYiOiJ0dmxpc3QyMDcifSx7Im4iOiLlsJHlhL8iLCJ2IjoidHZsaXN0MjA4In0seyJuIjoi56eR5pWZIiwidiI6InR2bGlzdDIwOSJ9LHsibiI6IuiusOW9lSIsInYiOiJ0dmxpc3QyMTEifSx7Im4iOiLliqjmvKsiLCJ2IjoidHZsaXN0MjEyIn0seyJuIjoi55Sf5rS7IiwidiI6InR2bGlzdDIxMyJ9LHsibiI6IuazleWItiIsInYiOiJ0dmxpc3QyMTQifSx7Im4iOiLlhpvkuosiLCJ2IjoidHZsaXN0MjE1In0seyJuIjoi5paH5peFIiwidiI6InR2bGlzdDIxNiJ9LHsibiI6IuWGnOenkSIsInYiOiJ0dmxpc3QyMTcifSx7Im4iOiLmlbDlrZfnlLXop4YiLCJ2IjoidHZsaXN0MjE4In1dfV0KCX0sCglmaWx0ZXJfZGVmOnsKCQlsaXZlOntjYXRlSWQ6J2ZtbGlzdDIwJ30sCgkJdHY6e2NhdGVJZDondHZsaXN0MjAxJ30KCX0sCglzZWFyY2hVcmw6ICcvaW5kZXgucGhwP209c2VhcmNoJmM9aW5kZXgmYT1pbml0JnNpdGVpZD0xJnR5cGVpZD01NCZxPSoqJnBhZ2U9ZnlwYWdlJywKCXNlYXJjaGFibGU6MiwKCXF1aWNrU2VhcmNoOjAsCglmaWx0ZXJhYmxlOjEsCgloZWFkZXJzOnsKCQknVXNlci1BZ2VudCc6ICdNT0JJTEVfVUEnCgl9LAoJdGltZW91dDo1MDAwLAogICAgY2xhc3NfbmFtZTon5ZCs5bm/5pKtJueci+eUteinhicsCiAgICBjbGFzc191cmw6J2xpdmUmdHYnLAoJcGxheV9wYXJzZTp0cnVlLAoJbGF6eTonanM6dmFyIHB1cmw9anNwLnBkZmgocmVxdWVzdChpbnB1dCksICIucGxheWNvZGUmJmlmcmFtZSYmc3JjIik7aWYoL3Rpbmd0aW5nZm0vLnRlc3QocHVybCkpe3B1cmw9Imh0dHA6Ly93d3cuZ3Vhbmdib21pLmNvbSIrcHVybH07aW5wdXQ9IHtqeDowLHVybDpwdXJsLHBhcnNlOjEsaGVhZGVyOkpTT04uc3RyaW5naWZ5KHsicmVmZXJlciI6Imh0dHA6Ly93d3cuZ3Vhbmdib21pLmNvbS8ifSl9JywKCWxpbWl0OjYsCgnmjqjojZA6ICcuYXgtc3BsaXQtMzt1bCYmLmF4LWdyaWQtYmxvY2s7KjsucmFkaW8taWNvbiYmc3JjOy5yYWRpby1pY29uJiZhbHQ7KicsCglkb3VibGU6IHRydWUsCgnkuIDnuqc6ICcuYXgtc3BsaXQtMiYmbGk7LnJhZGlvLXRpdGxlJiZUZXh0Ozs7YSYmaHJlZicsCgnkuoznuqc6IHsKCQkidGl0bGUiOiAiaDEmJlRleHQ7LmF4LWJyZWFkY3J1bWI6ZXEoMSkmJlRleHQiLAoJCSJpbWciOiAiIiwKCQkiZGVzYyI6ICI7Ozs7LmF4LWRlczplcSgwKSYmVGV4dCIsCgkJImNvbnRlbnQiOiAiLmF4LWlnbm9yZTplcSgwKSYmVGV4dCIsCgkJIumHjeWumuWQkSI6ICJqczpsZXQgdXJsID0ganNwLnBkKGh0bWwsJyNwbGF5JiZpZnJhbWUmJnNyYycpO2xvZygn6YeN5a6a5ZCR5YiwOicrdXJsKTtodG1sID0gcmVxdWVzdCh1cmwpIiwKCQkidGFicyI6ICJqczpUQUJTPVsn5L+h5Y+35rqQJ10iLAoJCSJsaXN0cyI6ICJkaXY6ZXEoMSkmJmEiCgl9LAoJ5pCc57SiOiAnYm9keSAuYXgtaXRlbS1ibG9jazsuYXgtdGl0bGUmJlRleHQ7LmF4LWltZyYmc3R5bGU7LmF4LWNvbG9yLWRlczplcSgxKSYmVGV4dDsqJywKfQ==
+var rule = {
+	title:'广播迷FM[听]',
+	host:'http://www.guangbomi.com',
+    编码:'gb18030',
+    搜索编码:'gb18030',
+	url: '/fyfilter.html?page=fypage',
+	filter_url:'{{fl.cateId}}',
+	filter:{
+		"live":[{"key":"cateId","name":"按类型","value":[{"n":"新闻综合","v":"fmlist20"},{"n":"交通","v":"fmlist58"},{"n":"音乐","v":"fmlist57"},{"n":"经济","v":"fmlist56"},{"n":"生活","v":"fmlist59"},{"n":"文艺","v":"fmlist60"},{"n":"都市","v":"fmlist61"},{"n":"故事","v":"fmlist62"},{"n":"旅游","v":"fmlist63"},{"n":"乡村","v":"fmlist64"},{"n":"娱乐","v":"fmlist65"},{"n":"戏曲","v":"fmlist66"},{"n":"体育","v":"fmlist67"},{"n":"评书相声","v":"fmlist69"},{"n":"青少科教","v":"fmlist70"},{"n":"网络台","v":"fmlist113"},{"n":"汽车","v":"fmlist134"},{"n":"其他","v":"fmlist135"}]}],
+		"tv":[{"key":"cateId","name":"按类型","value":[{"n":"卫视台","v":"tvlist200"},{"n":"省台","v":"tvlist220"},{"n":"市台","v":"tvlist221"},{"n":"区县台","v":"tvlist222"},{"n":"新闻综合","v":"tvlist201"},{"n":"财经","v":"tvlist202"},{"n":"综艺","v":"tvlist203"},{"n":"体育","v":"tvlist204"},{"n":"影视","v":"tvlist205"},{"n":"公共","v":"tvlist206"},{"n":"都市","v":"tvlist207"},{"n":"少儿","v":"tvlist208"},{"n":"科教","v":"tvlist209"},{"n":"记录","v":"tvlist211"},{"n":"动漫","v":"tvlist212"},{"n":"生活","v":"tvlist213"},{"n":"法制","v":"tvlist214"},{"n":"军事","v":"tvlist215"},{"n":"文旅","v":"tvlist216"},{"n":"农科","v":"tvlist217"},{"n":"数字电视","v":"tvlist218"}]}]
+	},
+	filter_def:{
+		live:{cateId:'fmlist20'},
+		tv:{cateId:'tvlist201'}
+	},
+	searchUrl: '/index.php?m=search&c=index&a=init&siteid=1&typeid=54&q=**&page=fypage',
+	searchable:2,
+	quickSearch:0,
+	filterable:1,
+	headers:{
+		'User-Agent': 'MOBILE_UA'
+	},
+	timeout:5000,
+    class_name:'听广播&看电视',
+    class_url:'live&tv',
+	play_parse:true,
+	lazy:'js:var purl=jsp.pdfh(request(input), ".playcode&&iframe&&src");if(/tingtingfm/.test(purl)){purl="http://www.guangbomi.com"+purl};input= {jx:0,url:purl,parse:1,header:JSON.stringify({"referer":"http://www.guangbomi.com/"})}',
+	limit:6,
+	推荐: '.ax-split-3;ul&&.ax-grid-block;*;.radio-icon&&src;.radio-icon&&alt;*',
+	double: true,
+	一级: '.ax-split-2&&li;.radio-title&&Text;;;a&&href',
+	二级: {
+		"title": "h1&&Text;.ax-breadcrumb:eq(1)&&Text",
+		"img": "",
+		"desc": ";;;;.ax-des:eq(0)&&Text",
+		"content": ".ax-ignore:eq(0)&&Text",
+		"重定向": "js:let url = jsp.pd(html,'#play&&iframe&&src');log('重定向到:'+url);html = request(url)",
+		"tabs": "js:TABS=['信号源']",
+		"lists": "div:eq(1)&&a"
+	},
+	搜索: 'body .ax-item-block;.ax-title&&Text;.ax-img&&style;.ax-color-des:eq(1)&&Text;*',
+}

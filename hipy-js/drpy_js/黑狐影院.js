@@ -1,1 +1,10 @@
-H4sIAFfAdWYC//NPykpNLtFLLC7OTM/TyC1NSszTe7ls2tPZ+4z0nuzqeb5ruY5CNZcCEJQkJhVbKSjp5SWWgbAuiK+mlpOppMNVq2nNVZZYpFBUmpOqYAtV/2zFwmdz91spqEONU9eBGJNZkpMKEt098Xn3hKd7N76cuQgqlZFfXAKUySgpKbDS109LTM/N00vOz4XKlhblACX1czKLS/TTKpNzgE6OT6ssSExP1csoyc2BqipOTSxKzgiFqIVw9AoyCpQhzPL8ohRbLS3rAqBNQA21AB4Hpsn+AAAA
+Object.assign(muban.首图2.二级, {
+    tabs: ".nav.nav-tabs&&li",
+});
+var rule = {
+    模板: '首图2',
+    title: '黑狐影院',
+    host: 'http://fagmn.com',
+    url: '/list/fyclass_fypage.html',
+    searchUrl: '/search.php#searchword=**;post',
+}

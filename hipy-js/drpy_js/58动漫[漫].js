@@ -1,1 +1,25 @@
-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
+muban.vfed.二级.title = 'h1&&Text;.fed-col-md3:eq(0)&&Text';
+muban.vfed.二级.desc = '.fed-col-md3:eq(3)&&Text;;;.fed-col-md6--span:eq(0)&&Text;.fed-col-md6--span:eq(1)&&Text';
+muban.vfed.二级.tabs = '.nav-tabs&&li';
+muban.vfed.二级.lists = '.myui-content__list:eq(#id)&&li';
+var rule = {
+    title: '58动漫[漫]',
+    模板: 'vfed',
+    host: 'http://www.ting38.com',
+    url: '/search.php?page=fypage&searchtype=5&tid=fyclassfyfilter',
+    class_parse: '.fed-pops-navbar&&li;a&&Text;a&&href;.*/(.*?).html',
+    play_parse: true,
+    lazy: "js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);var url=html.url;if(html.encrypt=='1'){url=unescape(url)}else if(html.encrypt=='2'){url=unescape(base64Decode(url))}if(/m3u8|mp4/.test(url)){input=url}else{input}",
+    limit: 6,
+    filterable: 1,//是否启用分类筛选,
+    filter_url: '&order={{fl.by}}&area={{fl.area}}&year={{fl.year}}',
+    filter: 'H4sIAAAAAAAAA+2TzUrDQBSF32XWWWTSX/sq0kXUAYsmhVCFULKSutJURAzFghu1EQoGLMWmtE+TjOYtzM9k7gU37pPdnO/MvTN3DjMmlPQOx+SM2aRHbKZbRCGmbrBUxZtVtN2l+lI/v2D5NjPDEz+58jOcCuIoBdVUrSFYvkRcA65hToFTzFXgKuL0QPJ0iXgXeBfzDvAO5m3gbcxbwFuYN4E3MYd5KZ6XwrwU5jWGFhM8Xzr9zCme/ciGR+fufRxO/zw699aJtxINRoN0a9k4CkMePAjndDCSBnf9n9s7YRwPDYOZJ9mxfYVodeaVy7xRZ165zJsoc91iOsp8HsQ34T8zj18WyexaUCFKL3mb8a8P4Qkh66YB3+zLukLIW3uvfL4UnhCy5/N7/LQrexZC1i0X33u3rCuE9D4DqBNC3mWyjraP5V0KgbOpv0QVvoTzCxTHT5vwCAAA',
+    filter_def: {
+        1: {cateId: '1'},
+        2: {cateId: '2'},
+        3: {cateId: '3'},
+        4: {cateId: '4'}
+    },
+    searchUrl: '/search.php?page=fypage&searchword=**&searchtype=',
+    搜索: '.fed-list-item;a&&title;a&&data-original;.fed-list-remarks&&Text;a&&href',
+}

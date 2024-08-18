@@ -1,1 +1,47 @@
-H4sIAFfAdWYC/+1bW1fb2BV+z6/w8gMGii3JGJLYZc1LX9qH6UM7T0lWRrblWKl8GUsGXOq1khATLil2KCGh3MJMuEwmBJPQFMwAf8aS7H/RI52rwNF4OjTt6pIfjL5vn7119j46e58jHzLFuJgNZcbzhVyo2XhqNnZCSUlN+EZ8gVAmlywqUlDOpnJBWZMyUemb3khfT88fpXEtFotdkgcTuawmZTWrnYDbubbiUatA7Frmckc0MX5XA1KrM/FcshQMqhlRUYjKqFjwFYBtIJ+45gMfTdYUKeoLjOZSijweGLBJY3fTWDsHrG0bkemcqgEqrWl5NcpxY2NjIagUykikSUb6qqCAVpwixiWFy0pjobSWUZCc43xFIA5wajo3xqVKCUVU1SD6pEp58Z4ELliNIrSG2qdkRZMKrBwyYtzyQRjgOOPlvl7b1mv75uKuPj1lHpyYeyvtBzNs67vQ6MRESgklRE36bbJcDtpILEgivo6XfLmCz6/JGcmPObu/GChi9h65ljRgGCDGDVtQkkRAOzobRZG3Pn7BH7014f+TVPJH/bAv/gF/VgT3jPpB5/X1OYBHRaUo2Q2zgNYru+3JXYsGQPCXBxA9u9s8XUX0MKWXVvWZHURfJ7Q5fWBMVhB9g9I7z/TjE0TfJLTxsGY8WMK35KnxmR1qRaB9MaZfNhszmA+zfTQXsfnwoL98x5Ig763YUuep6U8739lJBDp6ikBHvxDoGE8EOoYJgY4xQaBjXBDAstbetv70DZIhQO43u2+eYhkCHWOKAJFtPaH9RID0ZW+7efYK9wUCoje10F7+HutBQPTW34CeYz0Iuomn8eitufQMyyAgsslZ49HfsQwC4vtJVa8cYd8hwLL22oLxcgvJECA2l560ZhrYJgTEv7N35uI/9NMD7CLBpEX1des7MooQENn8lF59j2UQkFE8r4ExwKMIAY3qqrH2jETVBkT2+Nz8AXuCAInA6TPzZNXRYQfFziIrgzGTaLWuP210OYmaR3v6yqn+eqe9PIVkDsrZrr29bBztO9oh6oK9at04PnPagxRx72wekNgxCMggfnhOZQiQUM8dUBkCRO/FlrH6FutBQB6aje+pHgL0wfgnlSFA+1Jn+1J36P21rje2sR4ERO9xFURQn8bziWLiyda5Wd0zZ5axMwTTSf7KmDsHamSeY0xaVD42T/DUQ4B9MKxCxDwYx4fNk9MuH4wwH47gnG1dMvwg5QdZPkz5MMsLlBdYnqc8z/DCTcILN1n+BuVvsPx1yl9n+WHKD7P8EOWHWJ76K7D+CtRfgfVXoP4KrL8C9Vdg/RWov1Y1ZYYpXqKDZMwv6I3qpUEyXnxsvzhEBuDyBM+4RsOoLyJJWtZU+oTtPwarISRRE7mCZN31zgBdiIR/4UKEKfIrp83GDq3HTKRAegCTnxFF2BlrzUUqouNhvN2x0gIV0SE0G2/00+fmzBPcC+HCdKVa1oN7VcsNl+LgVuJhhdIfftQnq46ihahuljP6u496Yw/LIOhymfDJ5YzbMsFtOeNWCN3KdvN4kxZCBOhSoGIs75OlgA3I/Z5P0aUHAkyRpDFDoNvc+NmK5k8Xw26Lq1sRcyt+7sX20wXOtdgu1UE90tc2yWILY684ecXpKopThC1OvyBxW/nk8QaTXADoZk9nTu61Nh9gGQTE5vyuWcO9R4DIauvmW7LngaCbPVarttaax0UEAWLz1aa+ggsAAt0keWO1wezbIOhm1+JW0PQ6CBMebQRY2dYHRgYAiefrs+aPeL+HAC0qG/r0CikqNqDP0Ht9r4bzIgTE5sqssYz3ewjQuBzo5y9IXGzw2YqDI413laThggfLIPBSqZdKryKVDl5RKm0/mDF3cEpEoJs023p33qpP41QDAdFb2DNm8UsQBOh8qRhHR2S+2IAuhj40j2tkMWQDZsHT/m6DLngswO4e3q1jGQTkfivvmddHEBC9xQ3jkJQKCOgW58iYrjYbCzShOigSh8NvwaoYxwECYuPgUevhU6wNwRWlJH2qAtqTqmMD5+6MdNoGzu0ZTVcWcE1XXkryUlKXKUkY9N49eO8e/k/fPbj9tPHffC/xOfNzxMvP/25+JjxP/eVZf3nqL8/6y1O/eNYvnvrFs37x1C8+8j9SF4a8uuDVBa8uXGVd+Nk/jHrreG8d322+HvbytZevvd8Qf25OdvtNzu13N7fDKt6BES/b/weyvZ3sy47DtEkpxZ5oFaITMPVHA0KgTKtDmPJhlo9QPsLyg5QfZHmBEQhOyRAjGXJIhhnJcKDMemEdmC5ImdyoFL0V0F8f6ZU563DdyssAKm12kr+bFwuqdUw6lBVH42LBPpWt9vQockxEh7bB33RBSsW43tu3k7/qYw8pK+KfS1Hf1/fVKOmSdQ7bauEb8f3uD7//MmTb7y1I3xQlVeuVs/mi1hfKiFoi3csVfHlFLIFQh/q/GOkFX32/5vpuCXf6Yg5zxYJlzTIaApdUJqd8vTYrZROFUl7zjYz4wNj0MYOGTloD9WJWUhNiXuoFsI/Iyz5JUaXOlsI/ZSkuqtJw5DdSIpeEZhm7jk5yt2+HMoPFG3+x/uYjXEizYmFrXLiDHR9yhJ393B+P+viBS7R94ht8XZaggeUdgvJFzzvc/oITXw9cw0fcVZA5E+mv4EF3+5rr7w8GXc+5Ux1fgJOzSWk8lE/nOfG+OM6pxXv3QCS+yMjJEaFnLDnS3w8evIysjQzxSD0paaKsIHUIuFRJTqJbgF6119b184q++cMA/E+B1v62VRnnfjTmt9p/OwPf8OR/bdU8/BZYua/mslFFVrWYlVxieTkRi8lJcLvyvwDb8IjH/zAAAA==
+muban.mxpro.二级.desc = '.module-info-item:eq(4)&&Text;;;.module-info-item-content:eq(1)&&Text;.module-info-item-content:eq(0)&&Text';
+muban.mxpro.二级.tab_text = 'body--small&&Text';
+var rule = {
+    title: 'voflix',
+    模板: 'mxpro',
+    host: 'https://voflix.fun',
+    homeUrl: '/label/new.html',
+    // url:'/show/fyclass--------fypage---.html',
+    url: '/show/fyfilter.html',
+    filterable: 1,//是否启用分类筛选,
+    filter_url: '{{fl.cateId}}-{{fl.area}}-{{fl.by or "time"}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
+    filter: 'H4sIAAAAAAAAA+2a61IiRxTH34XPfpjB+75BniG1H8iGqmxls6lSs1XWllXeQEADaHlZAt6yKq4RBTUGhgAvM90Db5GBPpeeDc6y0dXK1nzz9z/TPX36cs6ZxrchM/Ts27ehH6OzoWehF5GZ6Dffh4ZCryM/RV12KnWxt+rym8irX6K9B1+7soiddpZOu7ILZmhuCOTUqd0ogDzG8nZBJIsgj5PsJCpyKQbyBMvFdVGrgzxJslzIyvltfKXBnSeL3IvJY5GJd7aVRD2sj9HZxO7Dw6G5510LeP8qMj3NznPXdzvf30mAvp4C9PULoO98AvSdJoC+cwLQd14A0NYunYi1M7AB0PtSl04DbQB95xSAbMcrPE4AGkvpxG4e4FgUULv4Rif3AdspoHZ7Z+7IsZ2CQeZTLp472+toU0C2pZRc/A1tCsj3ekbEqui7ArR1djfku2OwAVCf2yvtpIV9KiD/mhfO5p+iUUEXiemJzFH7Pa2iArKl4yJzhTYFtIqtrLsGuIoKeFYLcnedZrUHZFtuOX+gJwA0A411p17wDNgj6acoMhWNaIeoUBZr1oCHyK6WRL4hjoqdXBxsHsn7XOckJ6uXnudA+qi/TFnWmt7+lETuNdOuiI4poEW83mIbAE31aoVtANRu51gWzrGdAto0+x+4HQBvjL/YBsBjKetjKXva/VoW1gm2U0DtljPuDIoEnidm8uS45WRKTjKHzhDzIT+Qqy23GZ1zZHoidmvX8egB6BtjNhqZ0jZG7cauNwbcGGEjPIIxu/unpg+zPqzrYdbDum6ybuq6wbqh6eYk6eakrk+wPqHr46yP6/oY62O6Psr6qK6zv6bur8n+mrq/Jvtr6v6a7K+p+2uyv91sqi3Td7O8SDK9IazMvxZJ7tx2dm6gg5mX7qN04ixLljfB8sPLmWneYZfLIoGnevrFz1PR7lufD4XC96w/tNyeb9hWkdOwNkFuVHDPvGYa0Q9q9wiyiZdBnhe70YBNvHKOdSYaW05yBUdhfnRKuVV3vz5UleGTE/wyu0pMYuFWLGU8uQqkQaoYcXErrBLaFAxYHdxZxfhVB35VjF/+88vWdu2Q8x8AVwAxmcN0AkDv24pzxQGg5UaeM4BBQ+Kj5cpP58BBc6pf7vLLef459u685ptjt8tuGhK7h1RjIQc5KchJ98hJw3pOuke87swnneI8HhYFerxZ3tfijQs0sItWu5zATa+A2m2UZArrdAA+gDFZxdgHwAf32q5l6eD2QDucnfc4FgA9013soU0BvS9/pX3hKKB2m/vyhr5QFXA6rspExrY2+EvFI9E83PzuRnCcBwXUR2WxvbCGrRU8UGwV8Zj7PH0m9cBbSdCge+AtJTj+dcFbS6BNQRCJgkj0iUg08kCRyC/a+N0lOUul9iFGMADqM33qZHHQAGTL7jnndNeigI/X3Xc77exuO41VLAD1eXAo8liBAgxSZcqCpd0XKaD3+dyW+FXUouxOEy4ygG47vtZsLtB8HjXtv/GeCYCr2n2RyFNV2wPeOleihNEbgPrMp2QOozAAz0tFtHZoXnrwaNWpp44cqErsGyWDWi6IoP89gprDwQVDcMHwhoFsX8EFg9/PFk95+fCYYdmjB2H5c8Iy6Qb7a+j+GuyvoftrsF+G7pfBfhm6Xwb7ZYw8bToYDdJBkA6CdPCQ6eCzf+sMqvb/RXp4yjA9FoTpIEx/pWH6C4Ziv5/Z/H5K8/u3k+BfP4Ig/wWC/Nw/nMdLLnwqAAA=',
+    filter_def: {
+        1: {cateId: '1'},
+        2: {cateId: '2'},
+        4: {cateId: '4'},
+        3: {cateId: '3'},
+        13: {cateId: '13'},
+        15: {cateId: '15'},
+        16: {cateId: '16'}
+    },
+    tab_remove: ['夸克网盘'],
+    class_parse: '.navbar-items&&li;a&&Text;a&&href;/(\\d+).html',
+    lazy: `js:
+        var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+        var url = html.url;
+        if (html.encrypt == '1') {
+            url = unescape(url)
+        } else if (html.encrypt == '2') {
+            url = unescape(base64Decode(url))
+        }
+        if (/\\.m3u8|\\.mp4/.test(url)) {
+            input = {
+                jx: 0,
+                url: url,
+                parse: 0
+            }
+        } else {
+            input
+        }
+    `,
+
+    // searchUrl:'/search/**----------fypage---.html',
+    searchUrl: '/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+    detailUrl: '/detail/fyid.html', //非必填,二级详情拼接链接
+    搜索: 'json:list;name;pic;;id',
+}

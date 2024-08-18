@@ -1,1 +1,53 @@
-H4sIAFfAdWYC/6VWWW/bRhB+768wXEBOw9qkTJ0W8kBa931Rh4vCWJJLciVe5qUjMNCiR9qiSYreRYoiLZA2QFGkDwUa5Pwzsez8iy4P1XJfu4K0szPffDM7MwvIA9aW5apw68bWzTe28HKQo8KDrZ3zp3+dPbh19tnD1bPf38Hfd3feDuyKYTvYrDiOaR+Q5Gw223ORh6ZoTzC0DUzVxqj1GQIRWlhxc4ezobXLyFB3drC90WIr9cIxx+ychsjzZ9+e338fW1xH2s1E7g7SoOHiqEmKotYRNMhZKgaSEcgNT0DH4F0bqlBwdqWFhFQHWnuKo6kRLtQch/CbNyV1TwAOrIinp7vBCVgQrGV+sZYEFdg2PvhLWphAhlgILAsIrNPTiFyEDkBqmFiksrFdULgr2RnkTCSvX99MK4QB3q99PFSduEiY9gL9v7ow+yuwILVjHWh+1y5e/nTx/HnYtdjZvef+tvruAd52NtHh7VUE9CVAMdk1NKDHLIR/r1ZJhNJBNBf+ihywKqzZJce6f/4K6TZBoWYTE8TahITBTwNAhDMtY7449odzo5o6kiRoHWxFc4DsARKhcQkwVbA4NoFlYyfHcmGk9RXRrSOgCpaLjRPSEB6wbNRGww0qLAHVjhhWdx5e3P4CO1zPRR/sSZJnn3x38fPD3Or+rde/fJ87u/fi/NNbudXduxcv/8y9/urF6s6D3MWjX1cffHTt7O6jV49vn338w1sB36vH750/+Q3z7XmGqCLbwSnkQCwWPL8c0uRYTAQO2IWCYuTWmN3AGov14dzxwYoFpegCr558HvBdNms7AG8fbG3v2YoxO7aQrDjHSJeMA3hyjXorFlPRWvIJty+7s43j+45BGrYlbJpEaAu+bVMnGLqDX3QQy/CghXuw62DKf4lJ8vzJy4u/H62++fP86YcbKQLeDrywEIvt6cbMz2rTISjsFYdjnznKgCRXX/6x+vpFyLv1+r1PX9/7OOzJpY9fuTCKPxz+yb/2m0jEFwcBSej331g+8mqwEBf29T84PFs+LGrK9nqO/8eErL748fyvX/yJu/ImsaKcsCvMehH73D6VRhzbK6VprTHyGgXPsOaG1q70860KgvI0j8qKUUTdmsAZOjcuVyvjbj6ljDupfDEzqYttflksNqFS9RqHI6/X4knCdkRRyS6yqlmfoSKdriGrt68jtUrT7TRlnlDaEax3e1OrCHvOqLJk52wpO00q5KKtZYnSYbbKjtCYLiSQezKJjwoNbjKtm0SJTyTJZqbbY5vlzH5v2SnEFZ4uLzsMZfSHRcIoAlkWmmTacgcCx1IsEOp2w6RorpBX9MSys+AXU51pSKLY6AtGX2Ymig2rXeMwnqoTWcsuxTtVRrPETJad9ZudHsFnUX2uiVR5xpqZISm1pkJTHopZqasMipOuxdSS/XimP2mLXHVWHzX6/RJ1wo6ZpaomD+OLpiBXZzoYW2J1dMK2mITXHYybrFDQ8ZwfzhMpLGPsVFISjVqy05fLmtH29EG53WFny6md1id5lS0dOlCpGYVshXHbUlHvKt0yUy8D0GT4OCMwJWfE0IV5Vd5nUvElJ3uNYbyjMwTh8LS60MlOcTYqcycpbb/GEGyyro+6Zi1Tl2ELtjI6UahPWpZb4psOvkPVmBfrjSPQObS9/oRgIDVMCK101l1OksV9T25LI8qt4X1cnuUpweP4eM3jmFm55BZVmq51UgxBeoP80ME1q1rLsTqmJrA0a4uDIVHrwalYoV0ocXlPy5LTlt5siIj1QIGro3aH7kpa2YNjadGd6PUjT1XbdLE2WtoD0bNJk+w1wbCXGRtJsSolLI/i+axJmguS0NIs6EMz01IKpmfzKOkdNfnRkXe0KIGpRXv8kK4oTbjk7GI735epdBPO23xWTvdca3QyIHTJpFP4P8ZIz6a8BjEgiTEz4lmui1/IjZ03Tv8BwKF3+ucIAAA=
+var rule = {
+    title: '维奇动漫[漫]',
+    host: 'https://www.uiviki.com',
+    hostJs: '',
+    headers: {'User-Agent': 'MOBILE_UA'},
+    编码: 'utf-8',
+    timeout: 5000,
+    homeUrl: '/',
+    url: '/anime-select-fyfilter.html',
+    filter_url: '{{fl.cateId}}-{{fl.area}}-{{fl.by}}-{{fl.class}}-----fypage---{{fl.year}}',
+    detailUrl: '',
+    searchUrl: '/anime-so/wd/**.html',
+    searchable: 1,
+    quickSearch: 1,
+    filterable: 1,
+    class_name: '连载动漫&国漫&日漫',
+    class_url: 'lianzai&guoman&riman',
+    filter_def: {
+        lianzai: {cateId: 'lianzai'},
+        guoman: {cateId: 'guoman'},
+        riman: {cateId: 'riman'}
+    },
+    proxy_rule: '',
+    sniffer: 0,
+    isVideo: '',
+    play_parse: true,
+    parse_url: '',
+    lazy: '',
+    limit: 9,
+    double: false,
+    推荐: '*;*;*;*;*',
+//列表;标题;图片;描述;链接;详情(可不写)
+    一级: '.vodlist li;a&&title;img&&data-echo;.vodlist-title&&Text;a&&href',
+    二级: {
+        "title": ".show_right_info:eq(0)&&li:eq(0)&&Text",
+        "img": "img&&src",
+        "desc": "",
+        "content": ".overlay-text&&Text",
+//线路数组
+        "tabs": ".tab&&.now&&li",
+//线路标题
+        "tab_text": "",
+//播放数组 选集列表
+        "lists": ".playlist:eq(#id)&&a",
+//选集标题
+        "list_text": "",
+//选集链接
+        "list_url": "a&&href"
+    },
+//列表;标题;图片;描述;链接;详情(可不写)
+    搜索: '*',
+    filter: 'H4sIAAAAAAAAA+2U207iUBSG73mMXvMEvorxomPITDOIiegkDiHhoFiRKcUonUYHJIYRD6hYQ6DF8jLdPbzFFNehJvMCXvSOb/+stddh9y9lpLwiF37KirS2nilJ33P70pq0mZeLRSkrFeStXIzBxBG9k5h/yPm9+GC9JBXiY3E4iuqj1XEMUjkLp+Gb45/N8RSBNH82SzQE1hb3HzQA0oTWF+oFaggcN/7ruVcUB0BacLsMp03UEDhn4zQybyknAMfddMTcoTgAjhseJRoC16L+9rsG1QJAmrd89BwTNQS+b9iLxmd0HwBp8W/fOkcNgWd9fRhVFjRrAK5T18TjPdUJwLXMTTG0qBYAzll5C1yNcgJwnaYrdJXqBOA4vRVYNBcEnoveCx46NBcAzlkfh4MK5QTgHmoPvnVHPQBwzks7njDlBGCtehKoE9IAuPfFnRhRHALHaaNAb1AcAGtXA3ExJg2A61zUgvMW1QnA++tb3lyn/QFwXHUq6m2KA+B5LnXRpK8LgeOeO8n+ELjOruGbNtUJwJoxFLMZaQCsvTj+Ae0W4cO79uzj5F2vgPfX0uKvgPYHwD0cvUb1KvUAwHGuFl33KQ6A+/vVDWt0HwJrzYlY0jeGwPdVW+KSekdI3uefUDvm9/kOnNMdiBvaEULiPQ3RfmHveYfyRjnLZvllP3FKXzsVdvs/p/SNaWS8Yo5dJf4rv0bb9p/py/+m7BaTep8OhEpvsbi5vZNbXZvZyGakr3vbW3IhNezUsFPDTg07NexPb9g7SurXqV+nfp36derXn96vM+V/+YAXbBURAAA='
+}
